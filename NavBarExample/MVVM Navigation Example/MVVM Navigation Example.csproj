@@ -83,6 +83,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Factories\RelayCommandFactory.cs" />
     <Compile Include="Factories\ViewModelFactory.cs" />
     <Compile Include="ViewModel\AutoViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />

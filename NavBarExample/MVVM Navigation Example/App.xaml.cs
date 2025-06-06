@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using MVVM_Base;
 using MVVM_Base.Interfaces;
 using MVVM_Navigation_Example.Factories;
 using MVVM_Navigation_Example.View;
@@ -29,6 +30,9 @@ namespace MVVM_Navigation_Example
             builder.RegisterType<SettingsViewModel>().AsSelf();
             builder.RegisterType<AutoViewModel>().AsSelf();
 
+
+            builder.RegisterType<RelayCommand>().AsSelf();
+
             // Register Views
             builder.RegisterType<MainWindow>().AsSelf();
             builder.RegisterType<AutoControl>().AsSelf();
@@ -40,6 +44,7 @@ namespace MVVM_Navigation_Example
 
             //Register Factories
             builder.RegisterType<ViewModelFactory>().As<IViewModelFactory>().SingleInstance();
+            builder.RegisterType<RelayCommandFactory>().As<IRelayCommandFactory>().SingleInstance();
 
 
             Container = builder.Build();

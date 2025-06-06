@@ -11,6 +11,7 @@ namespace MVVM_Navigation_Example.ViewModel
     public class MainViewModel : ObserrvableObject
     {
         private readonly IViewModelFactory _viewModelFactory;
+        private readonly IRelayCommandFactory relayCommandFactory;
 
         public ICommand NavigateAutoCommand { get; }
         public ICommand NavigateSettingsCommand { get; }
@@ -23,13 +24,17 @@ namespace MVVM_Navigation_Example.ViewModel
             set => SetProperty(ref _currentViewModel, value);
         }
 
-        public MainViewModel(IViewModelFactory viewModelFactory)
+        public MainViewModel(IViewModelFactory viewModelFactory, IRelayCommandFactory relayCommandFactory)
         {
             _viewModelFactory = viewModelFactory;
+            this.relayCommandFactory = relayCommandFactory;
+         
 
-            NavigateAutoCommand = new RelayCommand(NavigateToAuto);
-            NavigateSettingsCommand = new RelayCommand(NavigateToSettings);
-            NavigateManualCommand = new RelayCommand(NavigateToManual);
+            NavigateAutoCommand = relayCommandFactory.Create(NavigateToAuto);
+            NavigateManualCommand = relayCommandFactory.Create(NavigateToSettings);
+            NavigateSettingsCommand = relayCommandFactory.Create(NavigateToManual);
+
+
 
             CurrentViewModel = _viewModelFactory.CreateViewModel<AutoViewModel>();
         }
