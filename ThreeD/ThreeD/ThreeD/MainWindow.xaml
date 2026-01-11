@@ -1,0 +1,19 @@
+﻿<Window x:Class="ThreeD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThreeD"
+        xmlns:HelixToolkit="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <HelixToolkit:HelixViewport3D x:Name="helixViewport3D"
+                                      ZoomExtentsWhenLoaded="True"
+                                      ShowCoordinateSystem="True"
+                                      ShowViewCube="True"
+                                      IsHeadLightEnabled="True">
+            <!-- Işık ve model code-behind'dan eklenecek -->
+        </HelixToolkit:HelixViewport3D>
+    </Grid>
+</Window>

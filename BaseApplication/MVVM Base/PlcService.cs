@@ -43,7 +43,6 @@ namespace MVVM_Base
             }
             catch (Exception ex)
             {
-                // Hata loglanabilir
             }
         }
     }

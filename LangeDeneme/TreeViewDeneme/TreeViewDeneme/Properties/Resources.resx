@@ -1,0 +1,4615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CikisButonuContent" xml:space="preserve">
+    <value>Exit Application</value>
+    <comment>Cikis butonu yazisi</comment>
+  </data>
+  <data name="axis00_zpc_çikiş_profil_çikartma_z" xml:space="preserve">
+    <value>AXIS00 ZPC ÇIKIŞ PROFIL ÇIKARTMA Z</value>
+  </data>
+  <data name="axis01_zps_giriş_profil_sürme_z" xml:space="preserve">
+    <value>AXIS01 ZPS GIRIŞ PROFIL SÜRME Z</value>
+  </data>
+  <data name="axis02_zgx_giriş_gripper_konumlama_x" xml:space="preserve">
+    <value>AXIS02 ZGX GIRIŞ GRIPPER KONUMLAMA X</value>
+  </data>
+  <data name="axis03_zgy_giriş_gripper_konumlama_y" xml:space="preserve">
+    <value>AXIS03 ZGY GIRIŞ GRIPPER KONUMLAMA Y</value>
+  </data>
+  <data name="axis04_zgr_giriş_gripper_döndürme_r" xml:space="preserve">
+    <value>AXIS04 ZGR GIRIŞ GRIPPER DÖNDÜRME R</value>
+  </data>
+  <data name="axis05_xpk_giriş_profil_konumlama_x" xml:space="preserve">
+    <value>AXIS05 XPK GIRIŞ PROFIL KONUMLAMA X</value>
+  </data>
+  <data name="axis06_zfo_freze_öncesi_sikma_z" xml:space="preserve">
+    <value>AXIS06 ZFO FREZE ÖNCESI SIKMA Z</value>
+  </data>
+  <data name="axis07_yfo_freze_öncesi_sikma_y" xml:space="preserve">
+    <value>AXIS07 YFO FREZE ÖNCESI SIKMA Y</value>
+  </data>
+  <data name="axis08_xfo_freze_öncesi_sikma_x_iptal" xml:space="preserve">
+    <value>AXIS08 XFO FREZE ÖNCESI SIKMA X (IPTAL)</value>
+  </data>
+  <data name="axis09_yft_freze_takimlar_y" xml:space="preserve">
+    <value>AXIS09 YFT FREZE TAKIMLAR Y</value>
+  </data>
+  <data name="axis10_xft_freze_takimlar_x" xml:space="preserve">
+    <value>AXIS10 XFT FREZE TAKIMLAR X</value>
+  </data>
+  <data name="axis11_yfa_freze_takimgrup_ay" xml:space="preserve">
+    <value>AXIS11 YFA FREZE TAKIMGRUP AY</value>
+  </data>
+  <data name="axis12_yfb_freze_takimgrup_by" xml:space="preserve">
+    <value>AXIS12 YFB FREZE TAKIMGRUP BY</value>
+  </data>
+  <data name="axis13_zfs_freze_sonrasi_sikma_z" xml:space="preserve">
+    <value>AXIS13 ZFS FREZE SONRASI SIKMA Z</value>
+  </data>
+  <data name="axis14_yfs_freze_sonrasi_sikma_y" xml:space="preserve">
+    <value>AXIS14 YFS FREZE SONRASI SIKMA Y</value>
+  </data>
+  <data name="axis15_xfs_freze_sonrasi_sikma_x_iptal" xml:space="preserve">
+    <value>AXIS15 XFS FREZE SONRASI SIKMA X (IPTAL)</value>
+  </data>
+  <data name="axis16_ytu_üst_testere_y" xml:space="preserve">
+    <value>AXIS16 YTU ÜST TESTERE Y</value>
+  </data>
+  <data name="axis17_xtu_üst_testere_x" xml:space="preserve">
+    <value>AXIS17 XTU ÜST TESTERE X</value>
+  </data>
+  <data name="axis18_rtu_üst_testere_r" xml:space="preserve">
+    <value>AXIS18 RTU ÜST TESTERE R</value>
+  </data>
+  <data name="axis19_yta_alt_testere_y" xml:space="preserve">
+    <value>AXIS19 YTA ALT TESTERE Y</value>
+  </data>
+  <data name="axis20_xta_alt_testere_x" xml:space="preserve">
+    <value>AXIS20 XTA ALT TESTERE X</value>
+  </data>
+  <data name="axis21_rta_alt_testere_r" xml:space="preserve">
+    <value>AXIS21 RTA ALT TESTERE R</value>
+  </data>
+  <data name="axis22_zts_testere_sonrasi_sikma_z" xml:space="preserve">
+    <value>AXIS22 ZTS TESTERE SONRASI SIKMA Z</value>
+  </data>
+  <data name="axis23_yts_testere_sonrasi_sikma_y" xml:space="preserve">
+    <value>AXIS23 YTS TESTERE SONRASI SIKMA Y</value>
+  </data>
+  <data name="axis24_xts_testere_sonrasi_sikma_x_iptal" xml:space="preserve">
+    <value>AXIS24 XTS TESTERE SONRASI SIKMA X (IPTAL)</value>
+  </data>
+  <data name="plc_bağlantisi_yapilamadi" xml:space="preserve">
+    <value>PLC BAĞLANTISI YAPILAMADI</value>
+  </data>
+  <data name="başariyla_kaydedildi" xml:space="preserve">
+    <value>BAŞARIYLA KAYDEDİLDİ</value>
+  </data>
+  <data name="sifirlama_aparat_gen" xml:space="preserve">
+    <value>SIFIRLAMA APARAT GEN.</value>
+  </data>
+  <data name="sifirlama_aparat_yük" xml:space="preserve">
+    <value>SIFIRLAMA APARAT YÜK.</value>
+  </data>
+  <data name="kol_x_0" xml:space="preserve">
+    <value>KOL X 0</value>
+  </data>
+  <data name="kol_y_sifir" xml:space="preserve">
+    <value>KOL Y SIFIR</value>
+  </data>
+  <data name="kol_lazer_mes" xml:space="preserve">
+    <value>KOL LAZER MES.</value>
+  </data>
+  <data name="kol_testere_45_mes" xml:space="preserve">
+    <value>KOL TESTERE 45 MES.</value>
+  </data>
+  <data name="lazer_freze_mes" xml:space="preserve">
+    <value>LAZER FREZE MES.</value>
+  </data>
+  <data name="lazer_test_mes" xml:space="preserve">
+    <value>LAZER TEST. MES.</value>
+  </data>
+  <data name="kol_freze_once_poz" xml:space="preserve">
+    <value>KOL FREZE ONCE POZ.</value>
+  </data>
+  <data name="kol_freze_sonra_poz" xml:space="preserve">
+    <value>KOL FREZE SONRA POZ.</value>
+  </data>
+  <data name="kol_test_once_poz" xml:space="preserve">
+    <value>KOL TEST. ONCE POZ</value>
+  </data>
+  <data name="kol_test_sonra_poz" xml:space="preserve">
+    <value>KOL TEST. SONRA POZ.</value>
+  </data>
+  <data name="kol_parça_birak_mes" xml:space="preserve">
+    <value>KOL PARÇA BIRAK MES.</value>
+  </data>
+  <data name="test_fire_45135" xml:space="preserve">
+    <value>TEST FİRE 45-135</value>
+  </data>
+  <data name="test_dire_90135" xml:space="preserve">
+    <value>TEST DİRE 90-135</value>
+  </data>
+  <data name="test_fire_4590" xml:space="preserve">
+    <value>TEST FİRE 45-90</value>
+  </data>
+  <data name="son_parça_90_kes" xml:space="preserve">
+    <value>SON PARÇA 90 KES</value>
+  </data>
+  <data name="son_parça_dilimleme" xml:space="preserve">
+    <value>SON PARÇA DİLİMLEME</value>
+  </data>
+  <data name="max_çikarma_uzunluk" xml:space="preserve">
+    <value>MAX. ÇIKARMA UZUNLUK</value>
+  </data>
+  <data name="freze_sikma_basinç" xml:space="preserve">
+    <value>FREZE SIKMA BASINÇ</value>
+  </data>
+  <data name="test_sikma_basinç" xml:space="preserve">
+    <value>TEST. SIKMA BASINÇ</value>
+  </data>
+  <data name="yağlama_çalişma_sn" xml:space="preserve">
+    <value>YAĞLAMA ÇALIŞMA SN.</value>
+  </data>
+  <data name="yağlama_bekleme_dak" xml:space="preserve">
+    <value>YAĞLAMA BEKLEME DAK.</value>
+  </data>
+  <data name="freze_bekleme_x" xml:space="preserve">
+    <value>FREZE BEKLEME X</value>
+  </data>
+  <data name="freze_bekleme_y" xml:space="preserve">
+    <value>FREZE BEKLEME Y</value>
+  </data>
+  <data name="test_kalinlik_üst" xml:space="preserve">
+    <value>TEST. KALINLIK ÜST</value>
+  </data>
+  <data name="test_kalinlik_alt" xml:space="preserve">
+    <value>TEST. KALINLIK ALT</value>
+  </data>
+  <data name="dayama_alt_testere_mesafe_135" xml:space="preserve">
+    <value>DAYAMA ALT TESTERE MESAFE 135</value>
+  </data>
+  <data name="dayama_alt_testere_mesafe" xml:space="preserve">
+    <value>DAYAMA ALT TESTERE MESAFE</value>
+  </data>
+  <data name="alt_test_fire_45135" xml:space="preserve">
+    <value>ALT TEST. FİRE 45-135</value>
+  </data>
+  <data name="alt_test_fire_90135" xml:space="preserve">
+    <value>ALT TEST. FİRE 90-135</value>
+  </data>
+  <data name="alt_test_fire_4590" xml:space="preserve">
+    <value>ALT TEST. FİRE 45-90</value>
+  </data>
+  <data name="ilk_parça_ilave_mm" xml:space="preserve">
+    <value>İLK PARÇA İLAVE MM</value>
+  </data>
+  <data name="uç_temizleme_mm" xml:space="preserve">
+    <value>UÇ TEMİZLEME MM</value>
+  </data>
+  <data name="alt_testere_45_kal" xml:space="preserve">
+    <value>ALT TESTERE 45 KAL.</value>
+  </data>
+  <data name="masa_yan_sikma_poz_1" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 1</value>
+  </data>
+  <data name="masa_yan_sikma_poz_2" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 2</value>
+  </data>
+  <data name="masa_yan_sikma_poz_3" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 3</value>
+  </data>
+  <data name="masa_yan_sikma_poz_4" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 4</value>
+  </data>
+  <data name="masa_yan_sikma_poz_5" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 5</value>
+  </data>
+  <data name="masa_yan_sikma_poz_6" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 6</value>
+  </data>
+  <data name="masa_yan_sikma_poz_7" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 7</value>
+  </data>
+  <data name="masa_yan_sikma_poz_8" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 8</value>
+  </data>
+  <data name="masa_yan_sikma_poz_9" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 9</value>
+  </data>
+  <data name="masa_yan_sikma_poz_10" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 10</value>
+  </data>
+  <data name="masa_yan_sikma_poz_11" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 11</value>
+  </data>
+  <data name="masa_yan_sikma_poz_12" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 12</value>
+  </data>
+  <data name="masa_yan_sikma_poz_13" xml:space="preserve">
+    <value>MASA YAN SIKMA POZ 13</value>
+  </data>
+  <data name="frezeon1" xml:space="preserve">
+    <value>FREZEON1</value>
+  </data>
+  <data name="frezeon2" xml:space="preserve">
+    <value>FREZEON2</value>
+  </data>
+  <data name="frezeon3" xml:space="preserve">
+    <value>FREZEON3</value>
+  </data>
+  <data name="frezeon4" xml:space="preserve">
+    <value>FREZEON4</value>
+  </data>
+  <data name="frezeon5" xml:space="preserve">
+    <value>FREZEON5</value>
+  </data>
+  <data name="frezeon6" xml:space="preserve">
+    <value>FREZEON6</value>
+  </data>
+  <data name="frezeon7" xml:space="preserve">
+    <value>FREZEON7</value>
+  </data>
+  <data name="frezeon8" xml:space="preserve">
+    <value>FREZEON8</value>
+  </data>
+  <data name="frezeon9" xml:space="preserve">
+    <value>FREZEON9</value>
+  </data>
+  <data name="frezeon10" xml:space="preserve">
+    <value>FREZEON10</value>
+  </data>
+  <data name="frezeon11" xml:space="preserve">
+    <value>FREZEON11</value>
+  </data>
+  <data name="frezeon12" xml:space="preserve">
+    <value>FREZEON12</value>
+  </data>
+  <data name="testereust" xml:space="preserve">
+    <value>TESTEREUST</value>
+  </data>
+  <data name="testerealt" xml:space="preserve">
+    <value>TESTEREALT</value>
+  </data>
+  <data name="frezemotor1" xml:space="preserve">
+    <value>FREZEMOTOR1</value>
+  </data>
+  <data name="frezemotor2" xml:space="preserve">
+    <value>FREZEMOTOR2</value>
+  </data>
+  <data name="frezemotor3" xml:space="preserve">
+    <value>FREZEMOTOR3</value>
+  </data>
+  <data name="frezemotor4" xml:space="preserve">
+    <value>FREZEMOTOR4</value>
+  </data>
+  <data name="frezemotor5" xml:space="preserve">
+    <value>FREZEMOTOR5</value>
+  </data>
+  <data name="frezemotor6" xml:space="preserve">
+    <value>FREZEMOTOR6</value>
+  </data>
+  <data name="frezemotor7" xml:space="preserve">
+    <value>FREZEMOTOR7</value>
+  </data>
+  <data name="frezemotor8" xml:space="preserve">
+    <value>FREZEMOTOR8</value>
+  </data>
+  <data name="frezemotor9" xml:space="preserve">
+    <value>FREZEMOTOR9</value>
+  </data>
+  <data name="frezemotor10" xml:space="preserve">
+    <value>FREZEMOTOR10</value>
+  </data>
+  <data name="frezemotor11" xml:space="preserve">
+    <value>FREZEMOTOR11</value>
+  </data>
+  <data name="frezemotor12" xml:space="preserve">
+    <value>FREZEMOTOR12</value>
+  </data>
+  <data name="testeremotorust" xml:space="preserve">
+    <value>TESTEREMOTORUST</value>
+  </data>
+  <data name="testeremotoralt" xml:space="preserve">
+    <value>TESTEREMOTORALT</value>
+  </data>
+  <data name="giriş_konveyör_motoru" xml:space="preserve">
+    <value>GİRİŞ KONVEYÖR MOTORU</value>
+  </data>
+  <data name="giriş_konveyör_motoru_geri" xml:space="preserve">
+    <value>GİRİŞ KONVEYÖR MOTORU GERİ</value>
+  </data>
+  <data name="talaş_konveyörü" xml:space="preserve">
+    <value>TALAŞ KONVEYÖRÜ</value>
+  </data>
+  <data name="yağlama" xml:space="preserve">
+    <value>YAĞLAMA</value>
+  </data>
+  <data name="yağlama_2" xml:space="preserve">
+    <value>YAĞLAMA 2</value>
+  </data>
+  <data name="yağlama_3" xml:space="preserve">
+    <value>YAĞLAMA 3</value>
+  </data>
+  <data name="çikiş_masasi" xml:space="preserve">
+    <value>ÇIKIŞ MASASI</value>
+  </data>
+  <data name="freze_oncesi_ust_tabla_yukari_valfi" xml:space="preserve">
+    <value>FREZE ONCESI UST TABLA YUKARI VALFI</value>
+  </data>
+  <data name="freze_oncesi_ust_baski_asagi_valfi" xml:space="preserve">
+    <value>FREZE ONCESI UST BASKI ASAGI VALFI</value>
+  </data>
+  <data name="freze_oncesi_alt_baski_yukari_valfi" xml:space="preserve">
+    <value>FREZE ONCESI ALT BASKI YUKARI VALFI</value>
+  </data>
+  <data name="freze_oncesi_arka_yan_baski_siper_valfi" xml:space="preserve">
+    <value>FREZE ONCESI ARKA YAN BASKI SIPER VALFI</value>
+  </data>
+  <data name="freze_oncesi_on_yan_baski_rulo_valfi" xml:space="preserve">
+    <value>FREZE ONCESI ON YAN BASKI RULO VALFI</value>
+  </data>
+  <data name="freze_sonrasi_ust_tabla_yukari_valfi" xml:space="preserve">
+    <value>FREZE SONRASI UST TABLA YUKARI VALFI</value>
+  </data>
+  <data name="freze_sonrasi_ust_baski_asagi_valfi" xml:space="preserve">
+    <value>FREZE SONRASI UST BASKI ASAGI VALFI</value>
+  </data>
+  <data name="freze_sonrasi_alt_baski_yukari_valfi" xml:space="preserve">
+    <value>FREZE SONRASI ALT BASKI YUKARI VALFI</value>
+  </data>
+  <data name="freze_sonrasi_arka_yan_baski_siper_valfi" xml:space="preserve">
+    <value>FREZE SONRASI ARKA YAN BASKI SIPER VALFI</value>
+  </data>
+  <data name="freze_sonrasi_on_yan_baski_siper_valfi" xml:space="preserve">
+    <value>FREZE SONRASI ON YAN BASKI SIPER VALFI</value>
+  </data>
+  <data name="freze_sonrasi_on_yan_baski_rulo_valfi" xml:space="preserve">
+    <value>FREZE SONRASI ON YAN BASKI RULO VALFI</value>
+  </data>
+  <data name="testere_sonrasi_on_grup_sabitleme_valfi" xml:space="preserve">
+    <value>TESTERE SONRASI ON GRUP SABITLEME VALFI</value>
+  </data>
+  <data name="testere_sonrasi_on_grup_sabitleme_kilit_" xml:space="preserve">
+    <value>TESTERE SONRASI ON GRUP SABITLEME KILIT VALFI</value>
+  </data>
+  <data name="testere_sonrasi_on_grup_yan_baski_siper_" xml:space="preserve">
+    <value>TESTERE SONRASI ON GRUP YAN BASKI SIPER VALFI</value>
+  </data>
+  <data name="testere_sonrasi_on_grup_yan_baski_rulo_v" xml:space="preserve">
+    <value>TESTERE SONRASI ON GRUP YAN BASKI RULO VALFI</value>
+  </data>
+  <data name="testere_sonrasi_ust_tabla_yukari_valfi" xml:space="preserve">
+    <value>TESTERE SONRASI UST TABLA YUKARI VALFI</value>
+  </data>
+  <data name="testere_sonrasi_ust_baski_asagi_valfi" xml:space="preserve">
+    <value>TESTERE SONRASI UST BASKI ASAGI VALFI</value>
+  </data>
+  <data name="testere_sonrasi_alt_baski_yukari_valfi" xml:space="preserve">
+    <value>TESTERE SONRASI ALT BASKI YUKARI VALFI</value>
+  </data>
+  <data name="testere_sonrasi_arka_yan_baski_siper_val" xml:space="preserve">
+    <value>TESTERE SONRASI ARKA YAN BASKI SIPER VALFI</value>
+  </data>
+  <data name="cikis_yukari_itme_valfi" xml:space="preserve">
+    <value>CIKIS YUKARI ITME VALFI</value>
+  </data>
+  <data name="cikis_ileri_itme_valfi" xml:space="preserve">
+    <value>CIKIS ILERI ITME VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup1_ileri_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP1 ILERI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup2_ileri_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP2 ILERI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup3_ileri_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP3 ILERI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup4_ileri_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP4 ILERI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup5_ileri_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP5 ILERI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup6_ileri_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP6 ILERI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup1_kisa_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP1 KISA YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup1_uzun_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP1 UZUN YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup2_kisa_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP2 KISA YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup2_uzun_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP2 UZUN YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup3_kisa_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP3 KISA YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup3_uzun_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP3 UZUN YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup4_kisa_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP4 KISA YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup4_uzun_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP4 UZUN YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup5_kisa_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP5 KISA YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup5_uzun_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP5 UZUN YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup6_kisa_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP6 KISA YUKARI VALFI</value>
+  </data>
+  <data name="giris_yan_baski_grup6_uzun_yukari_valfi" xml:space="preserve">
+    <value>GIRIS YAN BASKI GRUP6 UZUN YUKARI VALFI</value>
+  </data>
+  <data name="giris_tork_dayama_valfi" xml:space="preserve">
+    <value>GIRIS TORK DAYAMA VALFI</value>
+  </data>
+  <data name="giris_gripper_kapat_valfi" xml:space="preserve">
+    <value>GIRIS GRIPPER KAPAT VALFI</value>
+  </data>
+  <data name="giris_profil_dikme_1_yukari_valfi" xml:space="preserve">
+    <value>GIRIS PROFIL DIKME 1 YUKARI VALFI</value>
+  </data>
+  <data name="giris_profil_dikme_2_yukari_valfi" xml:space="preserve">
+    <value>GIRIS PROFIL DIKME 2 YUKARI VALFI</value>
+  </data>
+  <data name="giris_profil_dikme_3_yukari_valfi" xml:space="preserve">
+    <value>GIRIS PROFIL DIKME 3 YUKARI VALFI</value>
+  </data>
+  <data name="giris_profil_dikme_4_yukari_valfi" xml:space="preserve">
+    <value>GIRIS PROFIL DIKME 4 YUKARI VALFI</value>
+  </data>
+  <data name="giris_ust_baski_1_ileri_valfi" xml:space="preserve">
+    <value>GIRIS UST BASKI 1 ILERI VALFI</value>
+  </data>
+  <data name="giris_ust_baski_2_ileri_valfi" xml:space="preserve">
+    <value>GIRIS UST BASKI 2 ILERI VALFI</value>
+  </data>
+  <data name="giris_ust_baski_3_ileri_valfi" xml:space="preserve">
+    <value>GIRIS UST BASKI 3 ILERI VALFI</value>
+  </data>
+  <data name="giris_ust_baski_4_ileri_valfi" xml:space="preserve">
+    <value>GIRIS UST BASKI 4 ILERI VALFI</value>
+  </data>
+  <data name="giris_ust_baskilar_yukari_valfi" xml:space="preserve">
+    <value>GIRIS UST BASKILAR YUKARI VALFI</value>
+  </data>
+  <data name="alarm00" xml:space="preserve">
+    <value>ALARM[00]</value>
+  </data>
+  <data name="alarm01_plc_hatasi" xml:space="preserve">
+    <value>ALARM[01]  PLC HATASI</value>
+  </data>
+  <data name="alarm02_ethernet_ip_hatasi" xml:space="preserve">
+    <value>ALARM[02]  ETHERNET IP HATASI</value>
+  </data>
+  <data name="alarm03_ethercat_hatasi" xml:space="preserve">
+    <value>ALARM[03]  ETHERCAT HATASI</value>
+  </data>
+  <data name="alarm04_motion_control_hatasi" xml:space="preserve">
+    <value>ALARM[04]  MOTION CONTROL HATASI</value>
+  </data>
+  <data name="alarm05_io_bus_hatasi" xml:space="preserve">
+    <value>ALARM[05]  IO BUS HATASI</value>
+  </data>
+  <data name="alarm06_giriş_işik_bariyeri_ihlali" xml:space="preserve">
+    <value>ALARM[06]  GIRIŞ IŞIK BARIYERI İHLALI</value>
+  </data>
+  <data name="alarm07_giriş_acil_stop_basili" xml:space="preserve">
+    <value>ALARM[07]  GIRIŞ ACIL STOP BASILI</value>
+  </data>
+  <data name="alarm08_kumanda_paneli_acil_stop_basili" xml:space="preserve">
+    <value>ALARM[08]  KUMANDA PANELI ACIL STOP BASILI</value>
+  </data>
+  <data name="alarm09_kapi_açik_kontrol_ediniz" xml:space="preserve">
+    <value>ALARM[09]  KAPI AÇIK KONTROL EDINIZ</value>
+  </data>
+  <data name="alarm10_hava_basinci_yetersiz_kontrol_ed" xml:space="preserve">
+    <value>ALARM[10]  HAVA BASINCI YETERSIZ KONTROL EDINIZ</value>
+  </data>
+  <data name="alarm11_yağlama_tanki_seviyesi_düşük" xml:space="preserve">
+    <value>ALARM[11]  YAĞLAMA TANKI SEVIYESI DÜŞÜK</value>
+  </data>
+  <data name="alarm12_freze_takimlar_inverter_1_hatada" xml:space="preserve">
+    <value>ALARM[12]  FREZE TAKIMLAR INVERTER 1 HATADA</value>
+  </data>
+  <data name="alarm13_freze_takimlar_inverter_2_hatada" xml:space="preserve">
+    <value>ALARM[13]  FREZE TAKIMLAR INVERTER 2 HATADA</value>
+  </data>
+  <data name="alarm14_üst_testere_inverter_hatada" xml:space="preserve">
+    <value>ALARM[14]  ÜST TESTERE INVERTER HATADA</value>
+  </data>
+  <data name="alarm15_alt_testere_inverter_hatada" xml:space="preserve">
+    <value>ALARM[15]  ALT TESTERE INVERTER HATADA</value>
+  </data>
+  <data name="alarm16_giriş_konveyör_termik_atti" xml:space="preserve">
+    <value>ALARM[16]  GIRIŞ KONVEYÖR TERMIK ATTI</value>
+  </data>
+  <data name="alarm17_üst_testere_45_termik_atti" xml:space="preserve">
+    <value>ALARM[17]  ÜST TESTERE 45 TERMIK ATTI</value>
+  </data>
+  <data name="alarm18_üst_testere_termik_atti_90" xml:space="preserve">
+    <value>ALARM[18]  ÜST TESTERE TERMIK ATTI 90</value>
+  </data>
+  <data name="alarm19_alt_testere_termik_atti_135" xml:space="preserve">
+    <value>ALARM[19]  ALT TESTERE TERMIK ATTI 135</value>
+  </data>
+  <data name="alarm20_talaş_konveyör_termik_atti" xml:space="preserve">
+    <value>ALARM[20]  TALAŞ KONVEYÖR TERMIK ATTI</value>
+  </data>
+  <data name="alarm21_çikiş_konveyör_termik_atti" xml:space="preserve">
+    <value>ALARM[21]  ÇIKIŞ KONVEYÖR TERMIK ATTI</value>
+  </data>
+  <data name="alarm22_kabin_girisi_hizalama_profili_ka" xml:space="preserve">
+    <value>ALARM[22]  KABIN GIRISI HIZALAMA PROFILI KAPALI SENSORU</value>
+  </data>
+  <data name="alarm23" xml:space="preserve">
+    <value>ALARM[23]</value>
+  </data>
+  <data name="alarm24_axis_00_zpc_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[24]  AXIS 00: ZPC EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm25_axis_00_zpc_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[25]  AXIS 00: ZPC POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm26_axis_00_zpc_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[26]  AXIS 00: ZPC NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm27_axis_00_zpc_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[27]  AXIS 00: ZPC EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm28_axis_01_zps_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[28]  AXIS 01: ZPS EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm29_axis_01_zps_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[29]  AXIS 01: ZPS POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm30_axis_01_zps_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[30]  AXIS 01: ZPS NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm31_axis_01_zps_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[31]  AXIS 01: ZPS EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm32_axis_02_zgx_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[32]  AXIS 02: ZGX EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm33_axis_02_zgx_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[33]  AXIS 02: ZGX POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm34_axis_02_zgx_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[34]  AXIS 02: ZGX NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm35_axis_02_zgx_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[35]  AXIS 02: ZGX EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm36_axis_03_zgy_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[36]  AXIS 03: ZGY EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm37_axis_03_zgy_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[37]  AXIS 03: ZGY POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm38_axis_03_zgy_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[38]  AXIS 03: ZGY NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm39_axis_03_zgy_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[39]  AXIS 03: ZGY EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm40_axis_04_zgr_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[40]  AXIS 04: ZGR EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm41_axis_04_zgr_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[41]  AXIS 04: ZGR POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm42_axis_04_zgr_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[42]  AXIS 04: ZGR NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm43_axis_04_zgr_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[43]  AXIS 04: ZGR EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm44_axis_05_xpk_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[44]  AXIS 05: XPK EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm45_axis_05_xpk_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[45]  AXIS 05: XPK POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm46_axis_05_xpk_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[46]  AXIS 05: XPK NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm47_axis_05_xpk_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[47]  AXIS 05: XPK EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm48_axis_06_zfo_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[48]  AXIS 06: ZFO EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm49_axis_06_zfo_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[49]  AXIS 06: ZFO POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm50_axis_06_zfo_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[50]  AXIS 06: ZFO NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm51_axis_06_zfo_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[51]  AXIS 06: ZFO EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm52_axis_07_yfo_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[52]  AXIS 07: YFO EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm53_axis_07_yfo_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[53]  AXIS 07: YFO POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm54_axis_07_yfo_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[54]  AXIS 07: YFO NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm55_axis_07_yfo_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[55]  AXIS 07: YFO EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm56_axis_08_xfo_eksen_servo_sürücü_h" xml:space="preserve">
+    <value>ALARM[56]  AXIS 08: XFO EKSEN SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm57_axis_08_xfo_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[57]  AXIS 08: XFO POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm58_axis_08_xfo_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[58]  AXIS 08: XFO NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm59_axis_08_xfo_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[59]  AXIS 08: XFO EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm60_axis_09_yft_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[60]  AXIS 09: YFT EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm61_axis_09_yft_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[61]  AXIS 09: YFT POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm62_axis_09_yft_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[62]  AXIS 09: YFT NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm63_axis_09_yft_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[63]  AXIS 09: YFT EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm64_axis_10_xft_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[64]  AXIS 10: XFT EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm65_axis_10_xft_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[65]  AXIS 10: XFT POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm66_axis_10_xft_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[66]  AXIS 10: XFT NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm67_axis_10_xft_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[67]  AXIS 10: XFT EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm68_axis_11_yfa_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[68]  AXIS 11: YFA EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm69_axis_11_yfa_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[69]  AXIS 11: YFA POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm70_axis_11_yfa_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[70]  AXIS 11: YFA NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm71_axis_11_yfa_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[71]  AXIS 11: YFA EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm72_axis_12_yfb_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[72]  AXIS 12: YFB EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm73_axis_12_yfb_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[73]  AXIS 12: YFB POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm74_axis_12_yfb_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[74]  AXIS 12: YFB NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm75_axis_12_yfb_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[75]  AXIS 12: YFB EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm76_axis_13_zfs_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[76]  AXIS 13: ZFS EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm77_axis_13_zfs_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[77]  AXIS 13: ZFS POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm78_axis_13_zfs_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[78]  AXIS 13: ZFS NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm79_axis_13_zfs_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[79]  AXIS 13: ZFS EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm80_axis_14_yfs_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[80]  AXIS 14: YFS EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm81_axis_14_yfs_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[81]  AXIS 14: YFS POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm82_axis_14_yfs_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[82]  AXIS 14: YFS NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm83_axis_14_yfs_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[83]  AXIS 14: YFS EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm84_axis_15_xfs_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[84]  AXIS 15: XFS EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm85_axis_15_xfs_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[85]  AXIS 15: XFS POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm86_axis_15_xfs_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[86]  AXIS 15: XFS NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm87_axis_15_xfs_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[87]  AXIS 15: XFS EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm88_axis_16_ytu_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[88]  AXIS 16: YTU EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm89_axis_16_ytu_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[89]  AXIS 16: YTU POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm90_axis_16_ytu_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[90]  AXIS 16: YTU NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm91_axis_16_ytu_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[91]  AXIS 16: YTU EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm92_axis_17_xtu_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[92]  AXIS 17: XTU EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm93_axis_17_xtu_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[93]  AXIS 17: XTU POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm94_axis_17_xtu_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[94]  AXIS 17: XTU NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm95_axis_17_xtu_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[95]  AXIS 17: XTU EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm96_axis_18_rtu_ekseni_servo_sürücü_" xml:space="preserve">
+    <value>ALARM[96]  AXIS 18: RTU EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm97_axis_18_rtu_pozitif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[97]  AXIS 18: RTU POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm98_axis_18_rtu_negatif_limit_sw_gör" xml:space="preserve">
+    <value>ALARM[98]  AXIS 18: RTU NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm99_axis_18_rtu_ekseni_pozisyon_limi" xml:space="preserve">
+    <value>ALARM[99]  AXIS 18: RTU EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm100_axis_19_yta_ekseni_servo_sürücü" xml:space="preserve">
+    <value>ALARM[100] AXIS 19: YTA EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm101_axis_19_yta_pozitif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[101] AXIS 19: YTA POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm102_axis_19_yta_negatif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[102] AXIS 19: YTA NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm103_axis_19_yta_ekseni_pozisyon_lim" xml:space="preserve">
+    <value>ALARM[103] AXIS 19: YTA EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm104_axis_20_xta_ekseni_servo_sürücü" xml:space="preserve">
+    <value>ALARM[104] AXIS 20: XTA EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm105_axis_20_xta_pozitif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[105] AXIS 20: XTA POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm106_axis_20_xta_negatif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[106] AXIS 20: XTA NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm107_axis_20_xta_ekseni_pozisyon_lim" xml:space="preserve">
+    <value>ALARM[107] AXIS 20: XTA EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm108_axis_21_rta_ekseni_servo_sürücü" xml:space="preserve">
+    <value>ALARM[108] AXIS 21: RTA EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm109_axis_21_rta_pozitif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[109] AXIS 21: RTA POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm110_axis_21_rta_negatif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[110] AXIS 21: RTA NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm111_axis_21_rta_ekseni_pozisyon_lim" xml:space="preserve">
+    <value>ALARM[111] AXIS 21: RTA EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm112_axis_22_zts_ekseni_servo_sürücü" xml:space="preserve">
+    <value>ALARM[112] AXIS 22: ZTS EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm113_axis_22_zts_pozitif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[113] AXIS 22: ZTS POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm114_axis_22_zts_negatif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[114] AXIS 22: ZTS NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm115_axis_22_zts_ekseni_pozisyon_lim" xml:space="preserve">
+    <value>ALARM[115] AXIS 22: ZTS EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm116_axis_23_yts_ekseni_servo_sürücü" xml:space="preserve">
+    <value>ALARM[116] AXIS 23: YTS EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm117_axis_23_yts_pozitif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[117] AXIS 23: YTS POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm118_axis_23_yts_negatif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[118] AXIS 23: YTS NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm119_axis_23_yts_ekseni_pozisyon_lim" xml:space="preserve">
+    <value>ALARM[119] AXIS 23: YTS EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm120_axis_24_xts_ekseni_servo_sürücü" xml:space="preserve">
+    <value>ALARM[120] AXIS 24: XTS EKSENI SERVO SÜRÜCÜ HATADA</value>
+  </data>
+  <data name="alarm121_axis_24_xts_pozitif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[121] AXIS 24: XTS POZITIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm122_axis_24_xts_negatif_limit_sw_gö" xml:space="preserve">
+    <value>ALARM[122] AXIS 24: XTS NEGATIF LIMIT SW. GÖRDÜ</value>
+  </data>
+  <data name="alarm123_axis_24_xts_ekseni_pozisyon_lim" xml:space="preserve">
+    <value>ALARM[123] AXIS 24: XTS EKSENI POZISYON LIMIT DIŞINDA</value>
+  </data>
+  <data name="alarm124" xml:space="preserve">
+    <value>ALARM[124]</value>
+  </data>
+  <data name="alarm125" xml:space="preserve">
+    <value>ALARM[125]</value>
+  </data>
+  <data name="alarm126" xml:space="preserve">
+    <value>ALARM[126]</value>
+  </data>
+  <data name="alarm127" xml:space="preserve">
+    <value>ALARM[127]</value>
+  </data>
+  <data name="alarm128_giriş_yan_baski_grup_1_ileri_ha" xml:space="preserve">
+    <value>ALARM[128] GIRIŞ YAN BASKI GRUP 1 ILERI HATASI</value>
+  </data>
+  <data name="alarm129_giriş_yan_baski_grup_2_ileri_ha" xml:space="preserve">
+    <value>ALARM[129] GIRIŞ YAN BASKI GRUP 2 ILERI HATASI</value>
+  </data>
+  <data name="alarm130_giriş_yan_baski_grup_3_ileri_ha" xml:space="preserve">
+    <value>ALARM[130] GIRIŞ YAN BASKI GRUP 3 ILERI HATASI</value>
+  </data>
+  <data name="alarm131_giriş_yan_baski_grup_4_ileri_ha" xml:space="preserve">
+    <value>ALARM[131] GIRIŞ YAN BASKI GRUP 4 ILERI HATASI</value>
+  </data>
+  <data name="alarm132_giriş_yan_baski_grup_5_ileri_ha" xml:space="preserve">
+    <value>ALARM[132] GIRIŞ YAN BASKI GRUP 5 ILERI HATASI</value>
+  </data>
+  <data name="alarm133_giriş_yan_baski_grup_6_ileri_ha" xml:space="preserve">
+    <value>ALARM[133] GIRIŞ YAN BASKI GRUP 6 ILERI HATASI</value>
+  </data>
+  <data name="alarm134_giriş_yan_baski_grup_1_kisa_yuk" xml:space="preserve">
+    <value>ALARM[134] GIRIŞ YAN BASKI GRUP 1 KISA YUKARI HATASI</value>
+  </data>
+  <data name="alarm135_giriş_yan_baski_grup_1_uzun_yuk" xml:space="preserve">
+    <value>ALARM[135] GIRIŞ YAN BASKI GRUP 1 UZUN YUKARI HATASI</value>
+  </data>
+  <data name="alarm136_giriş_yan_baski_grup_2_kisa_yuk" xml:space="preserve">
+    <value>ALARM[136] GIRIŞ YAN BASKI GRUP 2 KISA YUKARI HATASI</value>
+  </data>
+  <data name="alarm137_giriş_yan_baski_grup_2_uzun_yuk" xml:space="preserve">
+    <value>ALARM[137] GIRIŞ YAN BASKI GRUP 2 UZUN YUKARI HATASI</value>
+  </data>
+  <data name="alarm138_giriş_yan_baski_grup_3_kisa_yuk" xml:space="preserve">
+    <value>ALARM[138] GIRIŞ YAN BASKI GRUP 3 KISA YUKARI HATASI</value>
+  </data>
+  <data name="alarm139_giriş_yan_baski_grup_3_uzun_yuk" xml:space="preserve">
+    <value>ALARM[139] GIRIŞ YAN BASKI GRUP 3 UZUN YUKARI HATASI</value>
+  </data>
+  <data name="alarm140_giriş_yan_baski_grup_4_kisa_yuk" xml:space="preserve">
+    <value>ALARM[140] GIRIŞ YAN BASKI GRUP 4 KISA YUKARI HATASI</value>
+  </data>
+  <data name="alarm141_giriş_yan_baski_grup_4_uzun_yuk" xml:space="preserve">
+    <value>ALARM[141] GIRIŞ YAN BASKI GRUP 4 UZUN YUKARI HATASI</value>
+  </data>
+  <data name="alarm142_giriş_yan_baski_grup_5_kisa_yuk" xml:space="preserve">
+    <value>ALARM[142] GIRIŞ YAN BASKI GRUP 5 KISA YUKARI HATASI</value>
+  </data>
+  <data name="alarm143_giriş_yan_baski_grup_5_uzun_yuk" xml:space="preserve">
+    <value>ALARM[143] GIRIŞ YAN BASKI GRUP 5 UZUN YUKARI HATASI</value>
+  </data>
+  <data name="alarm144_giriş_yan_baski_grup_6_kisa_yuk" xml:space="preserve">
+    <value>ALARM[144] GIRIŞ YAN BASKI GRUP 6 KISA YUKARI HATASI</value>
+  </data>
+  <data name="alarm145_giriş_yan_baski_grup_6_uzun_yuk" xml:space="preserve">
+    <value>ALARM[145] GIRIŞ YAN BASKI GRUP 6 UZUN YUKARI HATASI</value>
+  </data>
+  <data name="alarm146_giriş_profil_dikme_1_hatasi" xml:space="preserve">
+    <value>ALARM[146] GIRIŞ PROFIL DIKME 1 HATASI</value>
+  </data>
+  <data name="alarm147_giriş_profil_dikme_2_hatasi" xml:space="preserve">
+    <value>ALARM[147] GIRIŞ PROFIL DIKME 2 HATASI</value>
+  </data>
+  <data name="alarm148_giriş_profil_dikme_3_hatasi" xml:space="preserve">
+    <value>ALARM[148] GIRIŞ PROFIL DIKME 3 HATASI</value>
+  </data>
+  <data name="alarm149_giriş_profil_dikme_4_hatasi" xml:space="preserve">
+    <value>ALARM[149] GIRIŞ PROFIL DIKME 4 HATASI</value>
+  </data>
+  <data name="alarm150_giriş_üst_baski_1_ileri_hatasi" xml:space="preserve">
+    <value>ALARM[150] GIRIŞ ÜST BASKI 1 İLERI HATASI</value>
+  </data>
+  <data name="alarm151_giriş_üst_baski_2_ileri_hatasi" xml:space="preserve">
+    <value>ALARM[151] GIRIŞ ÜST BASKI 2 İLERI HATASI</value>
+  </data>
+  <data name="alarm152_giriş_üst_baski_3_ileri_hatasi" xml:space="preserve">
+    <value>ALARM[152] GIRIŞ ÜST BASKI 3 İLERI HATASI</value>
+  </data>
+  <data name="alarm153_giriş_üst_baski_4_ileri_hatasi" xml:space="preserve">
+    <value>ALARM[153] GIRIŞ ÜST BASKI 4 İLERI HATASI</value>
+  </data>
+  <data name="alarm154_giriş_üst_baskilar_yukari_hatas" xml:space="preserve">
+    <value>ALARM[154] GIRIŞ ÜST BASKILAR YUKARI HATASI</value>
+  </data>
+  <data name="alarm155" xml:space="preserve">
+    <value>ALARM[155]</value>
+  </data>
+  <data name="alarm156" xml:space="preserve">
+    <value>ALARM[156]</value>
+  </data>
+  <data name="alarm157" xml:space="preserve">
+    <value>ALARM[157]</value>
+  </data>
+  <data name="alarm158" xml:space="preserve">
+    <value>ALARM[158]</value>
+  </data>
+  <data name="alarm159" xml:space="preserve">
+    <value>ALARM[159]</value>
+  </data>
+  <data name="alarm160_giriş_üst_baski_1_hatasi" xml:space="preserve">
+    <value>ALARM[160] GIRIŞ ÜST BASKI 1 HATASI</value>
+  </data>
+  <data name="alarm161_giriş_yan_sikma_hatasi" xml:space="preserve">
+    <value>ALARM[161] GIRIŞ YAN SIKMA HATASI</value>
+  </data>
+  <data name="alarm162_giriş_üst_sikma_döndürme_1_hata" xml:space="preserve">
+    <value>ALARM[162] GIRIŞ ÜST SIKMA DÖNDÜRME 1 HATASI</value>
+  </data>
+  <data name="alarm163_giriş_üst_sikma_döndürme_2_hata" xml:space="preserve">
+    <value>ALARM[163] GIRIŞ ÜST SIKMA DÖNDÜRME 2 HATASI</value>
+  </data>
+  <data name="alarm164_giriş_üst_sikma_döndürme_3_hata" xml:space="preserve">
+    <value>ALARM[164] GIRIŞ ÜST SIKMA DÖNDÜRME 3 HATASI</value>
+  </data>
+  <data name="alarm165_giriş_yan_sikma_yukariaşaği_hat" xml:space="preserve">
+    <value>ALARM[165] GIRIŞ YAN SIKMA YUKARI-AŞAĞI HATASI</value>
+  </data>
+  <data name="alarm166_giriş_yan_sikma_boşaltma_hatasi" xml:space="preserve">
+    <value>ALARM[166] GIRIŞ YAN SIKMA BOŞALTMA HATASI</value>
+  </data>
+  <data name="alarm167_giriş_gaga_sikma_hatasi" xml:space="preserve">
+    <value>ALARM[167] GIRIŞ GAGA SIKMA HATASI</value>
+  </data>
+  <data name="alarm168_giriş_tork_dayama_hatasi" xml:space="preserve">
+    <value>ALARM[168] GIRIŞ TORK DAYAMA HATASI</value>
+  </data>
+  <data name="alarm169_giriş_tork_dayama_sensör_hatasi" xml:space="preserve">
+    <value>ALARM[169] GIRIŞ TORK DAYAMA SENSÖR HATASI</value>
+  </data>
+  <data name="alarm170_giriş_üst_baski_2_hatasi" xml:space="preserve">
+    <value>ALARM[170] GIRIŞ ÜST BASKI 2 HATASI</value>
+  </data>
+  <data name="alarm171_giriş_üst_baski_3_hatasi" xml:space="preserve">
+    <value>ALARM[171] GIRIŞ ÜST BASKI 3 HATASI</value>
+  </data>
+  <data name="alarm172" xml:space="preserve">
+    <value>ALARM[172]</value>
+  </data>
+  <data name="alarm173" xml:space="preserve">
+    <value>ALARM[173]</value>
+  </data>
+  <data name="alarm174" xml:space="preserve">
+    <value>ALARM[174]</value>
+  </data>
+  <data name="alarm175" xml:space="preserve">
+    <value>ALARM[175]</value>
+  </data>
+  <data name="alarm176_freze_tool_1_hatasi" xml:space="preserve">
+    <value>ALARM[176] FREZE TOOL 1 HATASI</value>
+  </data>
+  <data name="alarm177_freze_tool_2_hatasi" xml:space="preserve">
+    <value>ALARM[177] FREZE TOOL 2 HATASI</value>
+  </data>
+  <data name="alarm178_freze_tool_3_hatasi" xml:space="preserve">
+    <value>ALARM[178] FREZE TOOL 3 HATASI</value>
+  </data>
+  <data name="alarm179_freze_tool_4_hatasi" xml:space="preserve">
+    <value>ALARM[179] FREZE TOOL 4 HATASI</value>
+  </data>
+  <data name="alarm180_freze_tool_5_hatasi" xml:space="preserve">
+    <value>ALARM[180] FREZE TOOL 5 HATASI</value>
+  </data>
+  <data name="alarm181_freze_tool_6_hatasi" xml:space="preserve">
+    <value>ALARM[181] FREZE TOOL 6 HATASI</value>
+  </data>
+  <data name="alarm182_freze_tool_7_hatasi" xml:space="preserve">
+    <value>ALARM[182] FREZE TOOL 7 HATASI</value>
+  </data>
+  <data name="alarm183_freze_tool_8_hatasi" xml:space="preserve">
+    <value>ALARM[183] FREZE TOOL 8 HATASI</value>
+  </data>
+  <data name="alarm184_freze_tool_9_hatasi" xml:space="preserve">
+    <value>ALARM[184] FREZE TOOL 9 HATASI</value>
+  </data>
+  <data name="alarm185_freze_tool_10_hatasi" xml:space="preserve">
+    <value>ALARM[185] FREZE TOOL 10 HATASI</value>
+  </data>
+  <data name="alarm186_freze_tool_11_hatasi" xml:space="preserve">
+    <value>ALARM[186] FREZE TOOL 11 HATASI</value>
+  </data>
+  <data name="alarm187_freze_tool_12_hatasi" xml:space="preserve">
+    <value>ALARM[187] FREZE TOOL 12 HATASI</value>
+  </data>
+  <data name="alarm188" xml:space="preserve">
+    <value>ALARM[188]</value>
+  </data>
+  <data name="alarm189" xml:space="preserve">
+    <value>ALARM[189]</value>
+  </data>
+  <data name="alarm190" xml:space="preserve">
+    <value>ALARM[190]</value>
+  </data>
+  <data name="alarm191" xml:space="preserve">
+    <value>ALARM[191]</value>
+  </data>
+  <data name="alarm192_freze_öncesi_üst_sikma_hatasi" xml:space="preserve">
+    <value>ALARM[192] FREZE ÖNCESI ÜST SIKMA HATASI</value>
+  </data>
+  <data name="alarm193_freze_öncesi_yan_sikma_hatasi" xml:space="preserve">
+    <value>ALARM[193] FREZE ÖNCESI YAN SIKMA HATASI</value>
+  </data>
+  <data name="alarm194_freze_öncesi_conta_baski_hatasi" xml:space="preserve">
+    <value>ALARM[194] FREZE ÖNCESI CONTA BASKI HATASI</value>
+  </data>
+  <data name="alarm195" xml:space="preserve">
+    <value>ALARM[195]</value>
+  </data>
+  <data name="alarm196" xml:space="preserve">
+    <value>ALARM[196]</value>
+  </data>
+  <data name="alarm197" xml:space="preserve">
+    <value>ALARM[197]</value>
+  </data>
+  <data name="alarm198" xml:space="preserve">
+    <value>ALARM[198]</value>
+  </data>
+  <data name="alarm199" xml:space="preserve">
+    <value>ALARM[199]</value>
+  </data>
+  <data name="alarm200_freze_sonrasi_üst_sikma_hatasi" xml:space="preserve">
+    <value>ALARM(200) FREZE SONRASI ÜST SIKMA HATASI</value>
+  </data>
+  <data name="alarm201_freze_sonrasi_yan_sikma_hatasi" xml:space="preserve">
+    <value>ALARM(201) FREZE SONRASI YAN SIKMA HATASI</value>
+  </data>
+  <data name="alarm202_freze_sonrasi_conta_baski_hatas" xml:space="preserve">
+    <value>ALARM(202) FREZE SONRASI CONTA BASKI HATASI</value>
+  </data>
+  <data name="alamr203" xml:space="preserve">
+    <value>ALAMR(203)</value>
+  </data>
+  <data name="alarm204" xml:space="preserve">
+    <value>ALARM(204)</value>
+  </data>
+  <data name="alarm205" xml:space="preserve">
+    <value>ALARM(205)</value>
+  </data>
+  <data name="alarm206" xml:space="preserve">
+    <value>ALARM(206)</value>
+  </data>
+  <data name="alarm207" xml:space="preserve">
+    <value>ALARM(207)</value>
+  </data>
+  <data name="alarm208_testere_öncesi_üst_sikma_hatasi" xml:space="preserve">
+    <value>ALARM(208) TESTERE ÖNCESI ÜST SIKMA HATASI</value>
+  </data>
+  <data name="alarm209_testere_öncesi_üst_yan_sikma_ha" xml:space="preserve">
+    <value>ALARM(209) TESTERE ÖNCESI ÜST YAN SIKMA HATASI</value>
+  </data>
+  <data name="alarm210_testere_öncesi_alt_yan_sikma_ha" xml:space="preserve">
+    <value>ALARM(210) TESTERE ÖNCESI ALT YAN SIKMA HATASI</value>
+  </data>
+  <data name="alarm211_testere_öncesi_conta_baski_hata" xml:space="preserve">
+    <value>ALARM(211) TESTERE ÖNCESI CONTA BASKI HATASI</value>
+  </data>
+  <data name="alarm212_testere_öncesi_damlalikli_baski" xml:space="preserve">
+    <value>ALARM(212) TESTERE ÖNCESI DAMLALIKLI BASKI HATASI</value>
+  </data>
+  <data name="alarm213" xml:space="preserve">
+    <value>ALARM(213)</value>
+  </data>
+  <data name="alarm214" xml:space="preserve">
+    <value>ALARM(214)</value>
+  </data>
+  <data name="alarm215" xml:space="preserve">
+    <value>ALARM(215)</value>
+  </data>
+  <data name="alarm216_testere_sonrasi_üst_sikma_hatas" xml:space="preserve">
+    <value>ALARM(216) TESTERE SONRASI ÜST SIKMA HATASI</value>
+  </data>
+  <data name="alarm217_testere_sonrasi_üst_yan_sikma_h" xml:space="preserve">
+    <value>ALARM(217) TESTERE SONRASI ÜST YAN SIKMA HATASI</value>
+  </data>
+  <data name="alarm218_testere_sonrasi_alt_yan_sikma_h" xml:space="preserve">
+    <value>ALARM(218) TESTERE SONRASI ALT YAN SIKMA HATASI</value>
+  </data>
+  <data name="alarm219_testere_sonrasi_conta_baski_hat" xml:space="preserve">
+    <value>ALARM(219) TESTERE SONRASI CONTA BASKI HATASI</value>
+  </data>
+  <data name="alarm220_testere_sonrasi_damlalikli_bask" xml:space="preserve">
+    <value>ALARM(220) TESTERE SONRASI DAMLALIKLI BASKI HATASI</value>
+  </data>
+  <data name="alarm221" xml:space="preserve">
+    <value>ALARM(221)</value>
+  </data>
+  <data name="alarm222" xml:space="preserve">
+    <value>ALARM(222)</value>
+  </data>
+  <data name="alarm223" xml:space="preserve">
+    <value>ALARM(223)</value>
+  </data>
+  <data name="alarm224_freze_öncesi_üst_tabla_hatasi" xml:space="preserve">
+    <value>ALARM(224) FREZE ÖNCESI ÜST TABLA HATASI</value>
+  </data>
+  <data name="alarm225_freze_öncesi_üst_baski_hatasi" xml:space="preserve">
+    <value>ALARM(225) FREZE ÖNCESI ÜST BASKI HATASI</value>
+  </data>
+  <data name="alarm226_freze_öncesi_alt_baski_hatasi" xml:space="preserve">
+    <value>ALARM(226) FREZE ÖNCESI ALT BASKI HATASI</value>
+  </data>
+  <data name="alarm227_freze_öncesi_arka_yan_baski_sip" xml:space="preserve">
+    <value>ALARM(227) FREZE ÖNCESI ARKA YAN BASKI SIPER HATASI</value>
+  </data>
+  <data name="alarm228_freze_öncesi_ön_yan_baski_rulol" xml:space="preserve">
+    <value>ALARM(228) FREZE ÖNCESI ÖN YAN BASKI RULOLU HATASI</value>
+  </data>
+  <data name="alarm229" xml:space="preserve">
+    <value>ALARM(229)</value>
+  </data>
+  <data name="alarm230" xml:space="preserve">
+    <value>ALARM(230)</value>
+  </data>
+  <data name="alarm231" xml:space="preserve">
+    <value>ALARM(231)</value>
+  </data>
+  <data name="alarm232_freze_sonrasi_üst_tabla_hatasi" xml:space="preserve">
+    <value>ALARM(232) FREZE SONRASI ÜST TABLA HATASI</value>
+  </data>
+  <data name="alarm233_freze_sonrasi_üst_baski_hatasi" xml:space="preserve">
+    <value>ALARM(233) FREZE SONRASI ÜST BASKI HATASI</value>
+  </data>
+  <data name="alarm234_freze_sonrasi_alt_baski_hatasi" xml:space="preserve">
+    <value>ALARM(234) FREZE SONRASI ALT BASKI HATASI</value>
+  </data>
+  <data name="alarm235_freze_sonrasi_arka_yan_baski_si" xml:space="preserve">
+    <value>ALARM(235) FREZE SONRASI ARKA YAN BASKI SIPER HATASI</value>
+  </data>
+  <data name="alarm236_freze_sonrasi_ön_yan_baski_sipe" xml:space="preserve">
+    <value>ALARM(236) FREZE SONRASI ÖN YAN BASKI SIPER HATASI</value>
+  </data>
+  <data name="alarm237_freze_sonrasi_ön_yan_baski_rulo" xml:space="preserve">
+    <value>ALARM(237) FREZE SONRASI ÖN YAN BASKI RULOLU HATASI</value>
+  </data>
+  <data name="alarm238_giris_arka_dayama_1_sensor_hata" xml:space="preserve">
+    <value>ALARM(238) GIRIS ARKA DAYAMA 1 SENSOR HATASI (FRANSIZ SERISI)</value>
+  </data>
+  <data name="alarm239_giris_arka_dayama_2_sensor_hata" xml:space="preserve">
+    <value>ALARM(239) GIRIS ARKA DAYAMA 2 SENSOR HATASI (FRANSIZ SERISI)</value>
+  </data>
+  <data name="alarm240_testere_sonrasi_ön_grup_sabitle" xml:space="preserve">
+    <value>ALARM(240) TESTERE SONRASI ÖN GRUP SABITLEME HATASI</value>
+  </data>
+  <data name="alarm241_testere_sonrasi_ön_grup_sabitle" xml:space="preserve">
+    <value>ALARM(241) TESTERE SONRASI ÖN GRUP SABITLEME KILIT HATASI</value>
+  </data>
+  <data name="alarm242_testere_sonrasi_ön_grup_ön_yan_" xml:space="preserve">
+    <value>ALARM(242) TESTERE SONRASI ÖN GRUP ÖN YAN BASKI SIPER HATASI</value>
+  </data>
+  <data name="alarm243_testere_sonrasi_ön_grup_ön_yan_" xml:space="preserve">
+    <value>ALARM(243) TESTERE SONRASI ÖN GRUP ÖN YAN BASKI RULOLU HATASI</value>
+  </data>
+  <data name="alarm244" xml:space="preserve">
+    <value>ALARM(244)</value>
+  </data>
+  <data name="alarm245" xml:space="preserve">
+    <value>ALARM(245)</value>
+  </data>
+  <data name="alarm246" xml:space="preserve">
+    <value>ALARM(246)</value>
+  </data>
+  <data name="alarm247" xml:space="preserve">
+    <value>ALARM(247)</value>
+  </data>
+  <data name="alarm248_testere_sonrasi_üst_tabla_hatas" xml:space="preserve">
+    <value>ALARM(248) TESTERE SONRASI ÜST TABLA HATASI</value>
+  </data>
+  <data name="alarm249_testere_sonrasi_üst_baski_hatas" xml:space="preserve">
+    <value>ALARM(249) TESTERE SONRASI ÜST BASKI HATASI</value>
+  </data>
+  <data name="alarm250_testere_sonrasi_alt_baski_hatas" xml:space="preserve">
+    <value>ALARM(250) TESTERE SONRASI ALT BASKI HATASI</value>
+  </data>
+  <data name="alarm251_testere_sonrasi_arka_yan_baski_" xml:space="preserve">
+    <value>ALARM(251) TESTERE SONRASI ARKA YAN BASKI SIPER HATASI</value>
+  </data>
+  <data name="alarm252" xml:space="preserve">
+    <value>ALARM(252)</value>
+  </data>
+  <data name="alarm253" xml:space="preserve">
+    <value>ALARM(253)</value>
+  </data>
+  <data name="alarm254" xml:space="preserve">
+    <value>ALARM(254)</value>
+  </data>
+  <data name="alarm255" xml:space="preserve">
+    <value>ALARM(255)</value>
+  </data>
+  <data name="alarm256_üst_45_testere_piston_hatasi" xml:space="preserve">
+    <value>ALARM(256) ÜST 45 TESTERE PISTON HATASI</value>
+  </data>
+  <data name="alarm257_alt_135_testere_piston_hatasi" xml:space="preserve">
+    <value>ALARM(257) ALT 135 TESTERE PISTON HATASI</value>
+  </data>
+  <data name="alarm258_üst_90_testere_piston_hatasi" xml:space="preserve">
+    <value>ALARM(258) ÜST 90 TESTERE PİSTON HATASI</value>
+  </data>
+  <data name="alarm259" xml:space="preserve">
+    <value>ALARM(259)</value>
+  </data>
+  <data name="alarm260" xml:space="preserve">
+    <value>ALARM(260)</value>
+  </data>
+  <data name="alarm261" xml:space="preserve">
+    <value>ALARM(261)</value>
+  </data>
+  <data name="alarm262" xml:space="preserve">
+    <value>ALARM(262)</value>
+  </data>
+  <data name="alarm263" xml:space="preserve">
+    <value>ALARM(263)</value>
+  </data>
+  <data name="alarm264_çikiş_profil_tutma_hatasi" xml:space="preserve">
+    <value>ALARM(264) ÇIKIŞ PROFIL TUTMA HATASI</value>
+  </data>
+  <data name="alarm265_çikiş_profil_asansör_hatasi" xml:space="preserve">
+    <value>ALARM(265) ÇIKIŞ PROFIL ASANSÖR HATASI</value>
+  </data>
+  <data name="alarm266_çikiş_yukari_itme_hatasi" xml:space="preserve">
+    <value>ALARM(266) ÇIKIŞ YUKARI İTME HATASI</value>
+  </data>
+  <data name="alarm267_çikiş_ileri_itme_hatasi" xml:space="preserve">
+    <value>ALARM(267) ÇIKIŞ İLERI İTME HATASI</value>
+  </data>
+  <data name="alarm268" xml:space="preserve">
+    <value>ALARM(268)</value>
+  </data>
+  <data name="alarm269" xml:space="preserve">
+    <value>ALARM(269)</value>
+  </data>
+  <data name="alarm270_profil_boyu_yetersiz" xml:space="preserve">
+    <value>ALARM(270) PROFIL BOYU YETERSIZ</value>
+  </data>
+  <data name="alarm271" xml:space="preserve">
+    <value>ALARM(271)</value>
+  </data>
+  <data name="alarm272_giriş_profil_algilanmadi_sensör" xml:space="preserve">
+    <value>ALARM(272) GİRİŞ PROFIL ALGILANMADI. SENSÖRÜ KONTROL EDINIZ.</value>
+  </data>
+  <data name="alarm273_giriş_profil_gripper_tarafindan" xml:space="preserve">
+    <value>ALARM(273) GIRIŞ PROFIL GRIPPER TARAFINDAN TUTULAMADI.</value>
+  </data>
+  <data name="alarm274_boy_sifir_veya_küçük_olamaz" xml:space="preserve">
+    <value>ALARM(274) BOY SIFIR VEYA KÜÇÜK OLAMAZ</value>
+  </data>
+  <data name="alarm275_yükseklik_sifir_veya_küçük_olam" xml:space="preserve">
+    <value>ALARM(275) YÜKSEKLIK SIFIR VEYA KÜÇÜK OLAMAZ</value>
+  </data>
+  <data name="alarm276_en_sifir_veya_küçük_olamaz" xml:space="preserve">
+    <value>ALARM(276) EN SIFIR VEYA KÜÇÜK OLAMAZ</value>
+  </data>
+  <data name="alarm277_operasyon_adeti_sifir_veya_küçü" xml:space="preserve">
+    <value>ALARM(277) OPERASYON ADETI SIFIR VEYA KÜÇÜK OLAMAZ</value>
+  </data>
+  <data name="alarm278_freze_işlem_gripper_kol_üzerine" xml:space="preserve">
+    <value>ALARM(278) FREZE İŞLEM GRIPPER KOL ÜZERINE GELIYOR</value>
+  </data>
+  <data name="alarm279_testere_kesim_gripper_kol_üzeri" xml:space="preserve">
+    <value>ALARM(279) TESTERE KESIM GRIPPER KOL ÜZERINE GELIYOR.</value>
+  </data>
+  <data name="alarm280_profil_sürme_güvenliği_yok" xml:space="preserve">
+    <value>ALARM(280) PROFIL SÜRME GÜVENLIĞI YOK</value>
+  </data>
+  <data name="alarm281_giriş_yan_sikma_hatasi_1" xml:space="preserve">
+    <value>ALARM(281) GİRİŞ YAN SIKMA HATASI 1.</value>
+  </data>
+  <data name="alarm282_giriş_yan_sikma_hatasi_2" xml:space="preserve">
+    <value>ALARM(282) GİRİŞ YAN SIKMA HATASI 2.</value>
+  </data>
+  <data name="alarm283_giriş_yan_sikma_hatasi_3" xml:space="preserve">
+    <value>ALARM(283) GİRİŞ YAN SIKMA HATASI 3.</value>
+  </data>
+  <data name="alarm284_giriş_yan_sikma_hatasi_4" xml:space="preserve">
+    <value>ALARM(284) GİRİŞ YAN SIKMA HATASI 4.</value>
+  </data>
+  <data name="alarm285_giriş_yan_sikma_hatasi_5" xml:space="preserve">
+    <value>ALARM(285) GİRİŞ YAN SIKMA HATASI 5.</value>
+  </data>
+  <data name="alarm286_giriş_yan_sikma_hatasi_6" xml:space="preserve">
+    <value>ALARM(286) GİRİŞ YAN SIKMA HATASI 6.</value>
+  </data>
+  <data name="alarm287_giriş_yan_sikma_hatasi_7" xml:space="preserve">
+    <value>ALARM(287) GİRİŞ YAN SIKMA HATASI 7.</value>
+  </data>
+  <data name="alarm288_giriş_yan_sikma_hatasi_8" xml:space="preserve">
+    <value>ALARM(288) GİRİŞ YAN SIKMA HATASI 8.</value>
+  </data>
+  <data name="alarm289_giriş_yan_sikma_hatasi_9" xml:space="preserve">
+    <value>ALARM(289) GİRİŞ YAN SIKMA HATASI 9.</value>
+  </data>
+  <data name="alarm290_giriş_yan_sikma_hatasi_10" xml:space="preserve">
+    <value>ALARM(290) GİRİŞ YAN SIKMA HATASI 10</value>
+  </data>
+  <data name="alarm291_giriş_yan_sikma_hatasi_11" xml:space="preserve">
+    <value>ALARM(291) GİRİŞ YAN SIKMA HATASI 11.</value>
+  </data>
+  <data name="alarm292_giriş_yan_sikma_hatasi_12" xml:space="preserve">
+    <value>ALARM(292) GİRİŞ YAN SIKMA HATASI 12.</value>
+  </data>
+  <data name="alarm293_giriş_yan_sikma_hatasi_13" xml:space="preserve">
+    <value>ALARM(293) GİRİŞ YAN SIKMA HATASI 13.</value>
+  </data>
+  <data name="alarm294_giriş_yan_sikma_geri_hatasi" xml:space="preserve">
+    <value>ALARM(294) GİRİŞ YAN SIKMA GERI HATASI</value>
+  </data>
+  <data name="alarm295" xml:space="preserve">
+    <value>ALARM(295)</value>
+  </data>
+  <data name="alarm296" xml:space="preserve">
+    <value>ALARM(296)</value>
+  </data>
+  <data name="alarm297" xml:space="preserve">
+    <value>ALARM(297)</value>
+  </data>
+  <data name="alarm298_giriş_masasi_güvenlik_sensoru" xml:space="preserve">
+    <value>ALARM(298) GİRİŞ MASASI GÜVENLİK SENSORU</value>
+  </data>
+  <data name="alarm299_çikiş_masasi_güvenlik_sensörü" xml:space="preserve">
+    <value>ALARM(299) ÇIKIŞ MASASI GÜVENLİK SENSÖRÜ</value>
+  </data>
+  <data name="iş_emri_aç_ozgenc_csv" xml:space="preserve">
+    <value>İŞ EMRİ AÇ: OZGENC CSV</value>
+  </data>
+  <data name="iş_emri_aç_ozgenc_xml" xml:space="preserve">
+    <value>İŞ EMRİ AÇ: OZGENC XML</value>
+  </data>
+  <data name="parça_uzunluğu_hatasi" xml:space="preserve">
+    <value>PARÇA UZUNLUĞU HATASI</value>
+  </data>
+  <data name="profil_bulunamadi" xml:space="preserve">
+    <value>PROFIL BULUNAMADI</value>
+  </data>
+  <data name="bu_boydan_başla" xml:space="preserve">
+    <value>BU BOYDAN BAŞLA</value>
+  </data>
+  <data name="tek_parça_kes" xml:space="preserve">
+    <value>TEK PARÇA KES</value>
+  </data>
+  <data name="tek_boy_kes" xml:space="preserve">
+    <value>TEK BOY KES</value>
+  </data>
+  <data name="bu_parçadan_başla" xml:space="preserve">
+    <value>BU PARÇADAN BAŞLA</value>
+  </data>
+  <data name="yüklü_veriyi_görmek_için_plc_bağlantisi_" xml:space="preserve">
+    <value>YÜKLÜ VERİYİ GÖRMEK İÇİN PLC BAĞLANTISI GEREKLİDİR</value>
+  </data>
+  <data name="kod" xml:space="preserve">
+    <value>KOD</value>
+  </data>
+  <data name="motor" xml:space="preserve">
+    <value>MOTOR</value>
+  </data>
+  <data name="şekil" xml:space="preserve">
+    <value>ŞEKİL</value>
+  </data>
+  <data name="yaklaşma" xml:space="preserve">
+    <value>YAKLAŞMA</value>
+  </data>
+  <data name="derinlik" xml:space="preserve">
+    <value>DERINLIK</value>
+  </data>
+  <data name="xpoz" xml:space="preserve">
+    <value>XPOZ</value>
+  </data>
+  <data name="ypoz" xml:space="preserve">
+    <value>YPOZ</value>
+  </data>
+  <data name="zpoz" xml:space="preserve">
+    <value>ZPOZ</value>
+  </data>
+  <data name="xofset" xml:space="preserve">
+    <value>XOFSET</value>
+  </data>
+  <data name="yofset" xml:space="preserve">
+    <value>YOFSET</value>
+  </data>
+  <data name="zofset" xml:space="preserve">
+    <value>ZOFSET</value>
+  </data>
+  <data name="boş_hiz" xml:space="preserve">
+    <value>BOŞ HIZ</value>
+  </data>
+  <data name="giriş_hizi" xml:space="preserve">
+    <value>GİRİŞ HIZI</value>
+  </data>
+  <data name="lineer_hiz" xml:space="preserve">
+    <value>LİNEER HIZ</value>
+  </data>
+  <data name="dairesel_hiz" xml:space="preserve">
+    <value>DAİRESEL HIZ</value>
+  </data>
+  <data name="ara_atlama_hizi" xml:space="preserve">
+    <value>ARA ATLAMA HIZI</value>
+  </data>
+  <data name="operasyon_şekli" xml:space="preserve">
+    <value>OPERASYON ŞEKLİ</value>
+  </data>
+  <data name="boy_listesinde_yeterli_parça_yok" xml:space="preserve">
+    <value>BOY LİSTESİNDE YETERLİ PARÇA YOK</value>
+  </data>
+  <data name="işlemler_bitti" xml:space="preserve">
+    <value>İŞLEMLER BİTTİ</value>
+  </data>
+  <data name="kol_tutma_x_pozisyonu_0_olamaz" xml:space="preserve">
+    <value>KOL TUTMA X POZISYONU 0 OLAMAZ</value>
+  </data>
+  <data name="kol_tutma_y_pozisyonu_0_olamaz" xml:space="preserve">
+    <value>KOL TUTMA Y POZISYONU 0 OLAMAZ</value>
+  </data>
+  <data name="boş_veri_tablosu" xml:space="preserve">
+    <value>BOŞ VERİ TABLOSU</value>
+  </data>
+  <data name="testere_açisi_yanliş" xml:space="preserve">
+    <value>TESTERE AÇISI YANLIŞ</value>
+  </data>
+  <data name="profilmarka" xml:space="preserve">
+    <value>PROFILMARKA</value>
+  </data>
+  <data name="profilstokkod" xml:space="preserve">
+    <value>PROFILSTOKKOD</value>
+  </data>
+  <data name="profilcitakantalix" xml:space="preserve">
+    <value>PROFILCITAKANTALIX</value>
+  </data>
+  <data name="profilcitakantaliy" xml:space="preserve">
+    <value>PROFILCITAKANTALIY</value>
+  </data>
+  <data name="profilsizex" xml:space="preserve">
+    <value>PROFILSIZEX</value>
+  </data>
+  <data name="profilsizey" xml:space="preserve">
+    <value>PROFILSIZEY</value>
+  </data>
+  <data name="desteknoktasix" xml:space="preserve">
+    <value>DESTEKNOKTASIX</value>
+  </data>
+  <data name="desteknoktasiy" xml:space="preserve">
+    <value>DESTEKNOKTASIY</value>
+  </data>
+  <data name="kaldirmanoktasix" xml:space="preserve">
+    <value>KALDIRMANOKTASIX</value>
+  </data>
+  <data name="kaldirmanoktasiy" xml:space="preserve">
+    <value>KALDIRMANOKTASIY</value>
+  </data>
+  <data name="tutucunoktasix" xml:space="preserve">
+    <value>TUTUCUNOKTASIX</value>
+  </data>
+  <data name="tutucunoktasiy" xml:space="preserve">
+    <value>TUTUCUNOKTASIY</value>
+  </data>
+  <data name="tutmaacisi" xml:space="preserve">
+    <value>TUTMAACISI</value>
+  </data>
+  <data name="profiltipi" xml:space="preserve">
+    <value>PROFILTIPI</value>
+  </data>
+  <data name="hammadde" xml:space="preserve">
+    <value>HAMMADDE</value>
+  </data>
+  <data name="damlalikbaski" xml:space="preserve">
+    <value>DAMLALIKBASKI</value>
+  </data>
+  <data name="opsiyon1" xml:space="preserve">
+    <value>OPSIYON1</value>
+  </data>
+  <data name="opsiyon2" xml:space="preserve">
+    <value>OPSIYON2</value>
+  </data>
+  <data name="opsiyon3" xml:space="preserve">
+    <value>OPSIYON3</value>
+  </data>
+  <data name="opsiyon4" xml:space="preserve">
+    <value>OPSIYON4</value>
+  </data>
+  <data name="opsiyon5" xml:space="preserve">
+    <value>OPSIYON5</value>
+  </data>
+  <data name="kasa" xml:space="preserve">
+    <value>KASA</value>
+  </data>
+  <data name="kanat" xml:space="preserve">
+    <value>KANAT</value>
+  </data>
+  <data name="ortakayit" xml:space="preserve">
+    <value>ORTAKAYIT</value>
+  </data>
+  <data name="kapali" xml:space="preserve">
+    <value>KAPALI</value>
+  </data>
+  <data name="açik" xml:space="preserve">
+    <value>AÇIK</value>
+  </data>
+  <data name="kaydet" xml:space="preserve">
+    <value>KAYDET</value>
+  </data>
+  <data name="yeni_profil" xml:space="preserve">
+    <value>YENİ PROFİL</value>
+  </data>
+  <data name="genel_data" xml:space="preserve">
+    <value>GENEL DATA</value>
+  </data>
+  <data name="tablo" xml:space="preserve">
+    <value>TABLO</value>
+  </data>
+  <data name="gelişmiş" xml:space="preserve">
+    <value>GELİŞMİŞ</value>
+  </data>
+  <data name="çikiş" xml:space="preserve">
+    <value>ÇIKIŞ</value>
+  </data>
+  <data name="prop_03delik" xml:space="preserve">
+    <value>03-DELİK</value>
+  </data>
+  <data name="prop_04daire" xml:space="preserve">
+    <value>04-DAİRE</value>
+  </data>
+  <data name="prop_05dortgen" xml:space="preserve">
+    <value>05-DORTGEN</value>
+  </data>
+  <data name="prop_06kapsül" xml:space="preserve">
+    <value>06-KAPSÜL</value>
+  </data>
+  <data name="prop_07çizgi" xml:space="preserve">
+    <value>07-ÇİZGİ</value>
+  </data>
+  <data name="prop_08barel" xml:space="preserve">
+    <value>08-BAREL</value>
+  </data>
+  <data name="prop_09sağ_kertme" xml:space="preserve">
+    <value>09-SAĞ KERTME</value>
+  </data>
+  <data name="prop_10sol_kertme" xml:space="preserve">
+    <value>10-SOL KERTME</value>
+  </data>
+  <data name="prop_11çift_delik" xml:space="preserve">
+    <value>11-ÇİFT DELİK</value>
+  </data>
+  <data name="prop_12disk_çizgi" xml:space="preserve">
+    <value>12-DİSK ÇİZGİ</value>
+  </data>
+  <data name="lütfen_profil_seçiniz" xml:space="preserve">
+    <value>LÜTFEN PROFIL SEÇİNİZ</value>
+  </data>
+  <data name="tüm_alanlar_doldurulmalidir" xml:space="preserve">
+    <value>TÜM ALANLAR DOLDURULMALIDIR</value>
+  </data>
+  <data name="işlem_numarasi_seçilmelidir" xml:space="preserve">
+    <value>İŞLEM NUMARASI SEÇİLMELİDİR</value>
+  </data>
+  <data name="lütfen_profil_yükleyiniz" xml:space="preserve">
+    <value>LÜTFEN PROFİL YÜKLEYİNİZ</value>
+  </data>
+  <data name="operasyon_sil" xml:space="preserve">
+    <value>OPERASYON SİL</value>
+  </data>
+  <data name="operasyon_kopyala" xml:space="preserve">
+    <value>OPERASYON KOPYALA</value>
+  </data>
+  <data name="önce_önemli_verileri_giriniz" xml:space="preserve">
+    <value>ÖNCE ÖNEMLİ VERİLERİ GİRİNİZ</value>
+  </data>
+  <data name="yeni_işlem" xml:space="preserve">
+    <value>YENİ İŞLEM</value>
+  </data>
+  <data name="profil_sil" xml:space="preserve">
+    <value>PROFİL SİL</value>
+  </data>
+  <data name="profil_kopyala" xml:space="preserve">
+    <value>PROFİL KOPYALA</value>
+  </data>
+  <data name="ayni_isimde_profil_mevcut" xml:space="preserve">
+    <value>AYNI İSİMDE PROFİL MEVCUT</value>
+  </data>
+  <data name="alt_testere" xml:space="preserve">
+    <value>ALT TESTERE</value>
+  </data>
+  <data name="geçmiş" xml:space="preserve">
+    <value>GEÇMİŞ</value>
+  </data>
+  <data name="gelişmiş_freze" xml:space="preserve">
+    <value>GELİŞMİŞ FREZE</value>
+  </data>
+  <data name="gelişmiş_eksen" xml:space="preserve">
+    <value>GELİŞMİŞ EKSEN</value>
+  </data>
+  <data name="git" xml:space="preserve">
+    <value>GİT</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="işlem_hizi" xml:space="preserve">
+    <value>İŞLEM HIZI</value>
+  </data>
+  <data name="boş_hiz_1" xml:space="preserve">
+    <value>BOŞ HIZ</value>
+  </data>
+  <data name="kalkiş_rampasi" xml:space="preserve">
+    <value>KALKIŞ RAMPASI</value>
+  </data>
+  <data name="duruş_rampasi" xml:space="preserve">
+    <value>DURUŞ RAMPASI</value>
+  </data>
+  <data name="jerk" xml:space="preserve">
+    <value>JERK</value>
+  </data>
+  <data name="max_poz" xml:space="preserve">
+    <value>MAX POZ</value>
+  </data>
+  <data name="min_pos" xml:space="preserve">
+    <value>MIN POS</value>
+  </data>
+  <data name="jog_hizi" xml:space="preserve">
+    <value>JOG HIZI</value>
+  </data>
+  <data name="jog_kalkiş_rampasi" xml:space="preserve">
+    <value>JOG KALKIŞ RAMPASI</value>
+  </data>
+  <data name="jog_duruş_rampasi" xml:space="preserve">
+    <value>JOG DURUŞ RAMPASI</value>
+  </data>
+  <data name="jog_jerk" xml:space="preserve">
+    <value>JOG JERK</value>
+  </data>
+  <data name="anlik_pozisyon" xml:space="preserve">
+    <value>ANLIK POZİSYON</value>
+  </data>
+  <data name="manuel_hedef_pozisyon" xml:space="preserve">
+    <value>MANUEL HEDEF POZİSYON</value>
+  </data>
+  <data name="home_offset" xml:space="preserve">
+    <value>HOME OFFSET</value>
+  </data>
+  <data name="yedek_1" xml:space="preserve">
+    <value>YEDEK 1</value>
+  </data>
+  <data name="yedek_2" xml:space="preserve">
+    <value>YEDEK 2</value>
+  </data>
+  <data name="prop_2_yaklaşma" xml:space="preserve">
+    <value>2. YAKLAŞMA</value>
+  </data>
+  <data name="giriş_üst_baski_döndürme_1" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI DÖNDÜRME 1</value>
+  </data>
+  <data name="giriş_üst_baski_döndürme_2" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI DÖNDÜRME 2</value>
+  </data>
+  <data name="giriş_üst_baski_döndürme_3" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI DÖNDÜRME 3</value>
+  </data>
+  <data name="giriş_yan_baski_yukariaşaği" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI YUKARI-AŞAĞI</value>
+  </data>
+  <data name="giriş_yan_baski_boşaltma" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI BOŞALTMA</value>
+  </data>
+  <data name="profil_tutma_pensesi" xml:space="preserve">
+    <value>PROFIL TUTMA PENSESI</value>
+  </data>
+  <data name="boy_firesi_geri_çekme_siniri" xml:space="preserve">
+    <value>BOY FİRESİ GERİ ÇEKME SINIRI</value>
+  </data>
+  <data name="freze_öncesi_üst_yan_baski" xml:space="preserve">
+    <value>FREZE ÖNCESİ ÜST YAN BASKI</value>
+  </data>
+  <data name="freze_öncesi_conta_baski" xml:space="preserve">
+    <value>FREZE ÖNCESİ CONTA BASKI</value>
+  </data>
+  <data name="freze_sonrasi_üst_yan_baski" xml:space="preserve">
+    <value>FREZE SONRASI ÜST YAN BASKI</value>
+  </data>
+  <data name="testere_öncesi_üst_yan_baski" xml:space="preserve">
+    <value>TESTERE ÖNCESİ ÜST YAN BASKI</value>
+  </data>
+  <data name="testere_öncesi_alt_yan_baski" xml:space="preserve">
+    <value>TESTERE ÖNCESİ ALT YAN BASKI</value>
+  </data>
+  <data name="testere_öncesi_conta_baski" xml:space="preserve">
+    <value>TESTERE ÖNCESİ CONTA BASKI</value>
+  </data>
+  <data name="testere_öncesi_damlalik_baski" xml:space="preserve">
+    <value>TESTERE ÖNCESİ DAMLALIK BASKI</value>
+  </data>
+  <data name="testere_sonrasi_üst_baski" xml:space="preserve">
+    <value>TESTERE SONRASI ÜST BASKI</value>
+  </data>
+  <data name="çikiş_profil_kaldirma" xml:space="preserve">
+    <value>ÇIKIŞ PROFİL KALDIRMA</value>
+  </data>
+  <data name="çikiş_profil_tutma" xml:space="preserve">
+    <value>ÇIKIŞ PROFİL TUTMA</value>
+  </data>
+  <data name="sifir_aparat_genişlik" xml:space="preserve">
+    <value>SIFIR APARAT GENİŞLİK</value>
+  </data>
+  <data name="sifir_aparat_yükseklik" xml:space="preserve">
+    <value>SIFIR APARAT YÜKSEKLİK</value>
+  </data>
+  <data name="kol_x_sifir" xml:space="preserve">
+    <value>KOL X SIFIR</value>
+  </data>
+  <data name="kol_y_sifir_1" xml:space="preserve">
+    <value>KOL Y SIFIR</value>
+  </data>
+  <data name="kol_dayama_mesafe" xml:space="preserve">
+    <value>KOL DAYAMA MESAFE</value>
+  </data>
+  <data name="kol_testere_45_mesafe" xml:space="preserve">
+    <value>KOL TESTERE 45 MESAFE</value>
+  </data>
+  <data name="dayama_freze_mesafe" xml:space="preserve">
+    <value>DAYAMA FREZE MESAFE</value>
+  </data>
+  <data name="dayama_testere_mesafe" xml:space="preserve">
+    <value>DAYAMA TESTERE MESAFE</value>
+  </data>
+  <data name="kol_freze_öncesi_poz" xml:space="preserve">
+    <value>KOL FREZE ÖNCESİ POZ</value>
+  </data>
+  <data name="kol_freze_sonrasi_poz" xml:space="preserve">
+    <value>KOL FREZE SONRASI POZ</value>
+  </data>
+  <data name="kol_testere_öncesi_poz" xml:space="preserve">
+    <value>KOL TESTERE ÖNCESİ POZ</value>
+  </data>
+  <data name="kol_testere_sonrasi_poz" xml:space="preserve">
+    <value>KOL TESTERE SONRASI POZ</value>
+  </data>
+  <data name="kol_parça_birakma_poz" xml:space="preserve">
+    <value>KOL PARÇA BIRAKMA POZ</value>
+  </data>
+  <data name="fire_45135" xml:space="preserve">
+    <value>FİRE 45-135</value>
+  </data>
+  <data name="fire_90135" xml:space="preserve">
+    <value>FİRE 90-135</value>
+  </data>
+  <data name="fire_4590" xml:space="preserve">
+    <value>FİRE 45-90</value>
+  </data>
+  <data name="freze_böl_sikma_basinç" xml:space="preserve">
+    <value>FREZE BÖL. SIKMA BASINÇ</value>
+  </data>
+  <data name="testere_böl_sikma_basinç" xml:space="preserve">
+    <value>TESTERE BÖL. SIKMA BASINÇ</value>
+  </data>
+  <data name="yağlama_çalişma_sn_1" xml:space="preserve">
+    <value>YAĞLAMA ÇALIŞMA SN.</value>
+  </data>
+  <data name="yağlama_bekleme_dak_1" xml:space="preserve">
+    <value>YAĞLAMA BEKLEME DAK.</value>
+  </data>
+  <data name="freze_bekleme_y_1" xml:space="preserve">
+    <value>FREZE BEKLEME Y</value>
+  </data>
+  <data name="freze_bekleme_z" xml:space="preserve">
+    <value>FREZE BEKLEME Z</value>
+  </data>
+  <data name="üst_testere_kal" xml:space="preserve">
+    <value>ÜST TESTERE KAL.</value>
+  </data>
+  <data name="alt_testere_kal" xml:space="preserve">
+    <value>ALT TESTERE KAL.</value>
+  </data>
+  <data name="çikarilabilir_profil_uzunluk" xml:space="preserve">
+    <value>ÇIKARILABİLİR PROFIL UZUNLUK</value>
+  </data>
+  <data name="ilk_parça_ilave" xml:space="preserve">
+    <value>İLK PARÇA İLAVE</value>
+  </data>
+  <data name="uç_temizleme_mm_1" xml:space="preserve">
+    <value>UÇ TEMİZLEME MM</value>
+  </data>
+  <data name="son_parça_90" xml:space="preserve">
+    <value>SON PARÇA 90</value>
+  </data>
+  <data name="dilimleme" xml:space="preserve">
+    <value>DİLİMLEME</value>
+  </data>
+  <data name="üst_test_piston_45" xml:space="preserve">
+    <value>ÜST TEST PISTON 45</value>
+  </data>
+  <data name="alt_test_piston_135" xml:space="preserve">
+    <value>ALT TEST PISTON 135</value>
+  </data>
+  <data name="üst_test_piston_90" xml:space="preserve">
+    <value>ÜST TEST PISTON 90</value>
+  </data>
+  <data name="üst_test_motor_45" xml:space="preserve">
+    <value>ÜST TEST MOTOR 45</value>
+  </data>
+  <data name="alt_test_motor_135" xml:space="preserve">
+    <value>ALT TEST MOTOR 135</value>
+  </data>
+  <data name="üst_test_motor_90" xml:space="preserve">
+    <value>ÜST TEST MOTOR 90</value>
+  </data>
+  <data name="üst_testere_45_kal" xml:space="preserve">
+    <value>ÜST TESTERE 45 KAL.</value>
+  </data>
+  <data name="prop_90_test_135_test_mesafe" xml:space="preserve">
+    <value>90 TEST. 135 TEST. MESAFE</value>
+  </data>
+  <data name="prop_90_test_45_test_mesafe" xml:space="preserve">
+    <value>90 TEST. 45 TEST. MESAFE</value>
+  </data>
+  <data name="test_sonrasi_alt_yan_baski" xml:space="preserve">
+    <value>TEST. SONRASI ALT YAN BASKI</value>
+  </data>
+  <data name="test_sonrasi_üst_yan_baski" xml:space="preserve">
+    <value>TEST. SONRASI ÜST YAN BASKI</value>
+  </data>
+  <data name="etiket_yazdir_tüm_parçalar" xml:space="preserve">
+    <value>ETIKET YAZDIR: TÜM PARÇALAR</value>
+  </data>
+  <data name="etiket_yazdir_tek_parça" xml:space="preserve">
+    <value>ETIKET YAZDIR: TEK PARÇA</value>
+  </data>
+  <data name="öncelik_no" xml:space="preserve">
+    <value>ÖNCELİK NO</value>
+  </data>
+  <data name="acil_stop_basili" xml:space="preserve">
+    <value>ACIL STOP BASILI</value>
+  </data>
+  <data name="profil_sikmalar_valf_hata" xml:space="preserve">
+    <value>PROFIL SIKMALAR VALF HATA</value>
+  </data>
+  <data name="kafa1_vidalama_ünitesi_valf_hatasi" xml:space="preserve">
+    <value>KAFA1 VIDALAMA ÜNITESI VALF HATASI</value>
+  </data>
+  <data name="kafa2_vidalama_ünitesi_valf_hatasi" xml:space="preserve">
+    <value>KAFA2 VIDALAMA ÜNITESI VALF HATASI</value>
+  </data>
+  <data name="home_yaparken_hata" xml:space="preserve">
+    <value>HOME YAPARKEN HATA</value>
+  </data>
+  <data name="kafa1_x_servo_hata" xml:space="preserve">
+    <value>KAFA1 X SERVO HATA</value>
+  </data>
+  <data name="kafa1_y_servo_hata" xml:space="preserve">
+    <value>KAFA1 Y SERVO HATA</value>
+  </data>
+  <data name="kafa2_x_servo_hata" xml:space="preserve">
+    <value>KAFA2 X SERVO HATA</value>
+  </data>
+  <data name="kafa2_y_servo_hata" xml:space="preserve">
+    <value>KAFA2 Y SERVO HATA</value>
+  </data>
+  <data name="reserve" xml:space="preserve">
+    <value>RESERVE</value>
+  </data>
+  <data name="ethercat_haberleşme_hatasi" xml:space="preserve">
+    <value>ETHERCAT HABERLEŞME HATASI</value>
+  </data>
+  <data name="ethernet_haberleşme_hatasi" xml:space="preserve">
+    <value>ETHERNET  HABERLEŞME HATASI</value>
+  </data>
+  <data name="motion_hatasi" xml:space="preserve">
+    <value>MOTION HATASI</value>
+  </data>
+  <data name="plc_nx_bus_ünite_hatasi" xml:space="preserve">
+    <value>PLC NX BUS ÜNITE HATASI</value>
+  </data>
+  <data name="çarpişma_oldu" xml:space="preserve">
+    <value>ÇARPIŞMA OLDU</value>
+  </data>
+  <data name="kafa1_vidalama_motor_piston_valf_hata" xml:space="preserve">
+    <value>KAFA1 VIDALAMA MOTOR PISTON VALF  HATA</value>
+  </data>
+  <data name="kafa2_vidalama_motor_piston_valf_hata" xml:space="preserve">
+    <value>KAFA2 VIDALAMA MOTOR PISTON VALF  HATA</value>
+  </data>
+  <data name="reserve_1" xml:space="preserve">
+    <value>RESERVE</value>
+  </data>
+  <data name="reserve_2" xml:space="preserve">
+    <value>RESERVE</value>
+  </data>
+  <data name="reserve_3" xml:space="preserve">
+    <value>RESERVE</value>
+  </data>
+  <data name="iş_listesi_dolu" xml:space="preserve">
+    <value>İŞ LISTESI DOLU</value>
+  </data>
+  <data name="gelen_iş_profil_boyu_hatalı" xml:space="preserve">
+    <value>GELEN IŞ PROFIL BOYU HATALı</value>
+  </data>
+  <data name="iş_listesinde_hiç_iş_yok" xml:space="preserve">
+    <value>İŞ LISTESINDE HIÇ IŞ YOK</value>
+  </data>
+  <data name="giris_ust_baski_1_yukariasagi" xml:space="preserve">
+    <value>GIRIS UST BASKI 1 YUKARI-ASAGI</value>
+  </data>
+  <data name="giris_ust_baski_2_yukariasagi" xml:space="preserve">
+    <value>GIRIS UST BASKI 2 YUKARI-ASAGI</value>
+  </data>
+  <data name="giris_ust_baski_3_yukariasagi" xml:space="preserve">
+    <value>GIRIS UST BASKI 3 YUKARI-ASAGI</value>
+  </data>
+  <data name="giris_ust_baski_4_yukariasagi" xml:space="preserve">
+    <value>GIRIS UST BASKI 4 YUKARI-ASAGI</value>
+  </data>
+  <data name="hedef" xml:space="preserve">
+    <value>HEDEF</value>
+  </data>
+  <data name="aktuel" xml:space="preserve">
+    <value>AKTUEL</value>
+  </data>
+  <data name="eksen" xml:space="preserve">
+    <value>EKSEN</value>
+  </data>
+  <data name="git_1" xml:space="preserve">
+    <value>GIT</value>
+  </data>
+  <data name="alt_testere_1" xml:space="preserve">
+    <value>ALT TESTERE</value>
+  </data>
+  <data name="giris_konveyor_ileri" xml:space="preserve">
+    <value>GIRIS KONVEYOR ILERI</value>
+  </data>
+  <data name="giris_konveyor_geri" xml:space="preserve">
+    <value>GIRIS KONVEYOR GERI</value>
+  </data>
+  <data name="talas_konveyor_motoru" xml:space="preserve">
+    <value>TALAS KONVEYOR MOTORU</value>
+  </data>
+  <data name="yaglama" xml:space="preserve">
+    <value>YAGLAMA</value>
+  </data>
+  <data name="cikis_konveyor" xml:space="preserve">
+    <value>CIKIS KONVEYOR</value>
+  </data>
+  <data name="kabin_giris_ust_baski" xml:space="preserve">
+    <value>KABIN GIRIS UST BASKI</value>
+  </data>
+  <data name="kabin_giris_yan_baski_ust" xml:space="preserve">
+    <value>KABIN GIRIS YAN BASKI - UST</value>
+  </data>
+  <data name="kabin_giris_yan_baski_alt" xml:space="preserve">
+    <value>KABIN GIRIS YAN BASKI - ALT</value>
+  </data>
+  <data name="testere_oncesi_ust_baski" xml:space="preserve">
+    <value>TESTERE ONCESI UST BASKI</value>
+  </data>
+  <data name="testere_oncesi_alt_dayama" xml:space="preserve">
+    <value>TESTERE ONCESI ALT DAYAMA</value>
+  </data>
+  <data name="testere_oncesi_damlalikli" xml:space="preserve">
+    <value>TESTERE ONCESI DAMLALIKLI</value>
+  </data>
+  <data name="testere_sonrasi_yan_sikma_kisa" xml:space="preserve">
+    <value>TESTERE SONRASI YAN SIKMA - KISA</value>
+  </data>
+  <data name="testere_sonrasi_yan_sikma_uzun" xml:space="preserve">
+    <value>TESTERE SONRASI YAN SIKMA - UZUN</value>
+  </data>
+  <data name="testere_sonrasi_yan_sikma" xml:space="preserve">
+    <value>TESTERE SONRASI YAN SIKMA</value>
+  </data>
+  <data name="testere_sonrasi_ust_baski" xml:space="preserve">
+    <value>TESTERE SONRASI UST BASKI</value>
+  </data>
+  <data name="testere_sonrasi_alt_dayama" xml:space="preserve">
+    <value>TESTERE SONRASI ALT DAYAMA</value>
+  </data>
+  <data name="testere_sonrasi_damlalikli" xml:space="preserve">
+    <value>TESTERE SONRASI DAMLALIKLI</value>
+  </data>
+  <data name="vidalama" xml:space="preserve">
+    <value>VIDALAMA</value>
+  </data>
+  <data name="profiller" xml:space="preserve">
+    <value>PROFILLER</value>
+  </data>
+  <data name="makine" xml:space="preserve">
+    <value>MAKINE</value>
+  </data>
+  <data name="cikis" xml:space="preserve">
+    <value>CIKIS</value>
+  </data>
+  <data name="islem_zaten_var_kod" xml:space="preserve">
+    <value>ISLEM ZATEN VAR KOD:</value>
+  </data>
+  <data name="profil" xml:space="preserve">
+    <value>PROFIL:</value>
+  </data>
+  <data name="üzerine_yazmak_istiyor_musun" xml:space="preserve">
+    <value>ÜZERINE YAZMAK ISTIYOR MUSUN ?</value>
+  </data>
+  <data name="kopyalama_islemi_basarili" xml:space="preserve">
+    <value>KOPYALAMA ISLEMI BASARILI</value>
+  </data>
+  <data name="koplayama_islemi_iptal_edildi" xml:space="preserve">
+    <value>KOPLAYAMA ISLEMI IPTAL EDILDI</value>
+  </data>
+  <data name="uzerine_yazma_onayi" xml:space="preserve">
+    <value>UZERINE YAZMA ONAYI</value>
+  </data>
+  <data name="x_acc" xml:space="preserve">
+    <value>X ACC</value>
+  </data>
+  <data name="x_jerk" xml:space="preserve">
+    <value>X JERK</value>
+  </data>
+  <data name="y_hiz" xml:space="preserve">
+    <value>Y HIZ</value>
+  </data>
+  <data name="y_acc" xml:space="preserve">
+    <value>Y ACC</value>
+  </data>
+  <data name="y_jerk" xml:space="preserve">
+    <value>Y JERK</value>
+  </data>
+  <data name="tool_emniyet_mesafesi" xml:space="preserve">
+    <value>TOOL EMNIYET MESAFESI</value>
+  </data>
+  <data name="kafa_1_min_x_pos" xml:space="preserve">
+    <value>KAFA 1 MIN X POS</value>
+  </data>
+  <data name="kafa_2_max_pos" xml:space="preserve">
+    <value>KAFA 2 MAX POS</value>
+  </data>
+  <data name="profil_sensor_gecikme" xml:space="preserve">
+    <value>PROFIL SENSOR GECIKME</value>
+  </data>
+  <data name="profil_sikma_zamani" xml:space="preserve">
+    <value>PROFIL SIKMA ZAMANI</value>
+  </data>
+  <data name="vida_alma_zamani" xml:space="preserve">
+    <value>VIDA ALMA ZAMANI</value>
+  </data>
+  <data name="vida_uflee_zamani" xml:space="preserve">
+    <value>VIDA UFLEE ZAMANI</value>
+  </data>
+  <data name="sarjor_acik_sure" xml:space="preserve">
+    <value>SARJOR ACIK SURE</value>
+  </data>
+  <data name="sarjor_kapali_sure" xml:space="preserve">
+    <value>SARJOR KAPALI SURE</value>
+  </data>
+  <data name="sarjor_besleme_set" xml:space="preserve">
+    <value>SARJOR BESLEME SET</value>
+  </data>
+  <data name="sikma_offset" xml:space="preserve">
+    <value>SIKMA OFFSET</value>
+  </data>
+  <data name="sikma_pos" xml:space="preserve">
+    <value>SIKMA POS</value>
+  </data>
+  <data name="vida_besleme_deneme_tekrar" xml:space="preserve">
+    <value>VIDA BESLEME DENEME TEKRAR</value>
+  </data>
+  <data name="vida_besleme_gecikme_sure" xml:space="preserve">
+    <value>VIDA BESLEME GECIKME SURE</value>
+  </data>
+  <data name="kafa_1_aktif" xml:space="preserve">
+    <value>KAFA 1 AKTIF</value>
+  </data>
+  <data name="kafa_2_aktif" xml:space="preserve">
+    <value>KAFA 2 AKTIF</value>
+  </data>
+  <data name="vida_alma_total_hata_zaman" xml:space="preserve">
+    <value>VIDA ALMA TOTAL HATA ZAMAN</value>
+  </data>
+  <data name="vidalama_total_hata_zaman" xml:space="preserve">
+    <value>VIDALAMA TOTAL HATA ZAMAN</value>
+  </data>
+  <data name="kafa_1_tool_offset" xml:space="preserve">
+    <value>KAFA 1 TOOL OFFSET</value>
+  </data>
+  <data name="kafa_2_tool_offset" xml:space="preserve">
+    <value>KAFA 2 TOOL OFFSET</value>
+  </data>
+  <data name="beyaz_bastan_vida_mesafe" xml:space="preserve">
+    <value>BEYAZ BASTAN VIDA MESAFE</value>
+  </data>
+  <data name="renkli_bastan_vida_mesafe" xml:space="preserve">
+    <value>RENKLI BASTAN VIDA MESAFE</value>
+  </data>
+  <data name="beyaz_ara_vida_mesafe" xml:space="preserve">
+    <value>BEYAZ ARA VIDA MESAFE</value>
+  </data>
+  <data name="renkli_ara_vida_mesafe" xml:space="preserve">
+    <value>RENKLI ARA VIDA MESAFE</value>
+  </data>
+  <data name="uzunluk" xml:space="preserve">
+    <value>UZUNLUK</value>
+  </data>
+  <data name="profil_1" xml:space="preserve">
+    <value>PROFIL</value>
+  </data>
+  <data name="aci" xml:space="preserve">
+    <value>ACI</value>
+  </data>
+  <data name="renk" xml:space="preserve">
+    <value>RENK</value>
+  </data>
+  <data name="harici_poz" xml:space="preserve">
+    <value>HARICI POZ</value>
+  </data>
+  <data name="vida_listesi" xml:space="preserve">
+    <value>VIDA LISTESI</value>
+  </data>
+  <data name="beyaz" xml:space="preserve">
+    <value>BEYAZ</value>
+  </data>
+  <data name="renkli" xml:space="preserve">
+    <value>RENKLI</value>
+  </data>
+  <data name="rpm" xml:space="preserve">
+    <value>RPM</value>
+  </data>
+  <data name="profil_adi" xml:space="preserve">
+    <value>PROFIL ADI</value>
+  </data>
+  <data name="boy_yetersiz_faydali_parça_kullanilip_te" xml:space="preserve">
+    <value>BOY YETERSIZ. FAYDALI PARÇA KULLANILIP TEKRAR OPTIMIZE EDILSIN MI ?</value>
+  </data>
+  <data name="boy_yetersiz" xml:space="preserve">
+    <value>BOY YETERSIZ</value>
+  </data>
+  <data name="etiket_fire_ofset" xml:space="preserve">
+    <value>ETIKET FIRE OFSET</value>
+  </data>
+  <data name="parçayi_sil" xml:space="preserve">
+    <value>PARÇAYI SİL</value>
+  </data>
+  <data name="bu_profili_optimize_et" xml:space="preserve">
+    <value>BU PROFİLİ OPTİMİZE ET</value>
+  </data>
+  <data name="tüm_profilleri_optimize_et" xml:space="preserve">
+    <value>TÜM PROFILLERI OPTIMIZE ET</value>
+  </data>
+  <data name="kesildi_işaretle" xml:space="preserve">
+    <value>KESİLDİ İŞARETLE</value>
+  </data>
+  <data name="kesilmedi_işaretle" xml:space="preserve">
+    <value>KESİLMEDİ İŞARETLE</value>
+  </data>
+  <data name="axis25_ypc_profil_çikarma_unitesi" xml:space="preserve">
+    <value>AXIS25 YPC PROFIL ÇIKARMA UNITESI</value>
+  </data>
+  <data name="freze_oncesi_arka_yan_baski_rulo_valfi" xml:space="preserve">
+    <value>FREZE ONCESI ARKA YAN BASKI RULO VALFI</value>
+  </data>
+  <data name="fire_etiket_limiti" xml:space="preserve">
+    <value>FİRE ETİKET LİMİTİ</value>
+  </data>
+  <data name="prop_13gelişmiş_dörtgen" xml:space="preserve">
+    <value>13-GELİŞMİŞ DÖRTGEN</value>
+  </data>
+  <data name="prop_14arka_testere_strok" xml:space="preserve">
+    <value>14-ARKA TESTERE STROK</value>
+  </data>
+  <data name="prop_15üst_testere_strok" xml:space="preserve">
+    <value>15-ÜST TESTERE STROK</value>
+  </data>
+  <data name="vidalama_1" xml:space="preserve">
+    <value>Vidalama</value>
+  </data>
+  <data name="valarm0_acil_stop_alarmı" xml:space="preserve">
+    <value>V-ALARM[0] Acil Stop Alarmı</value>
+  </data>
+  <data name="valarm1_profil_sıkmalar_geride_sensor_al" xml:space="preserve">
+    <value>V-ALARM[1] Profil Sıkmalar Geride Sensor Alarmı</value>
+  </data>
+  <data name="valarm17_profil_sıkmalar_yukarıda_sensor" xml:space="preserve">
+    <value>V-ALARM[17] Profil Sıkmalar Yukarıda Sensor Alarmı</value>
+  </data>
+  <data name="valarm2_vidalama_unitesi_piston_yukarıda" xml:space="preserve">
+    <value>V-ALARM[2] Vidalama Unitesi Piston Yukarıda Sensor Kafa 1 Alarmı</value>
+  </data>
+  <data name="valarm3_vidalama_unitesi_piston_yukarıda" xml:space="preserve">
+    <value>V-ALARM[3] Vidalama Unitesi Piston Yukarıda Sensor Kafa 2 Alarmı</value>
+  </data>
+  <data name="valarm4_home_yapılamadı" xml:space="preserve">
+    <value>V-ALARM[4] Home Yapılamadı</value>
+  </data>
+  <data name="valarm5_kafa_1_x_fault_alarm" xml:space="preserve">
+    <value>V-ALARM[5] Kafa 1 X Fault Alarm</value>
+  </data>
+  <data name="valarm6_kafa_1_y_fault_alarm" xml:space="preserve">
+    <value>V-ALARM[6] Kafa 1 Y Fault Alarm</value>
+  </data>
+  <data name="valarm7_kafa_2_x_fault_alarm" xml:space="preserve">
+    <value>V-ALARM[7] Kafa 2 X Fault Alarm</value>
+  </data>
+  <data name="valarm8_kafa_2_y_fault_alarm" xml:space="preserve">
+    <value>V-ALARM[8] Kafa 2 Y Fault Alarm</value>
+  </data>
+  <data name="valarm10_encoder_haberleşme_hatası" xml:space="preserve">
+    <value>V-ALARM[10] Encoder Haberleşme Hatası</value>
+  </data>
+  <data name="valarm11_plc_haberleşme_hatası" xml:space="preserve">
+    <value>V-ALARM[11] PLC Haberleşme hatası</value>
+  </data>
+  <data name="valarm12_motion_control_hatası" xml:space="preserve">
+    <value>V-ALARM[12] Motion Control Hatası</value>
+  </data>
+  <data name="valarm13_plc_command_error" xml:space="preserve">
+    <value>V-ALARM[13] PLC Command Error</value>
+  </data>
+  <data name="valarm14_carpışma_switch_hatası" xml:space="preserve">
+    <value>V-ALARM[14] Carpışma Switch Hatası</value>
+  </data>
+  <data name="valarm15_kafa_1_vidalama_motor_piston_ha" xml:space="preserve">
+    <value>V-ALARM[15] KAFA 1 Vidalama Motor Piston Hatası</value>
+  </data>
+  <data name="valarm16_kafa_2_vidalama_motor_piston_ha" xml:space="preserve">
+    <value>V-ALARM[16] KAFA 2 Vidalama Motor Piston Hatası</value>
+  </data>
+  <data name="valarm20_iş_listesi_dolu" xml:space="preserve">
+    <value>V-ALARM[20] İş Listesi Dolu</value>
+  </data>
+  <data name="valarm21_gelen_iş_profil_boyu_hatalı" xml:space="preserve">
+    <value>V-ALARM[21] Gelen İş Profil Boyu Hatalı</value>
+  </data>
+  <data name="valarm22_job_sayısı_hatalı" xml:space="preserve">
+    <value>V-ALARM[22] Job Sayısı Hatalı</value>
+  </data>
+  <data name="valarm23_kafa_1_z_fault_alarmı" xml:space="preserve">
+    <value>V-ALARM[23] Kafa 1 Z Fault Alarmı</value>
+  </data>
+  <data name="valarm24_kafa_2_z_fault_alarmı" xml:space="preserve">
+    <value>V-ALARM[24] Kafa 2 Z Fault Alarmı</value>
+  </data>
+  <data name="valarm25_kafa_1_z_delme_termik_alarm" xml:space="preserve">
+    <value>V-ALARM[25] Kafa 1 Z Delme Termik Alarm</value>
+  </data>
+  <data name="valarm26_kafa_2_z_delme_termik_alarm" xml:space="preserve">
+    <value>V-ALARM[26] Kafa 2 Z Delme Termik Alarm</value>
+  </data>
+  <data name="girisler" xml:space="preserve">
+    <value>GIRISLER</value>
+  </data>
+  <data name="cikislar" xml:space="preserve">
+    <value>CIKISLAR</value>
+  </data>
+  <data name="start_butonu" xml:space="preserve">
+    <value>Start Butonu</value>
+  </data>
+  <data name="stop_butonu" xml:space="preserve">
+    <value>Stop Butonu</value>
+  </data>
+  <data name="acil_stop" xml:space="preserve">
+    <value>Acil Stop</value>
+  </data>
+  <data name="carpışma_switch" xml:space="preserve">
+    <value>Carpışma Switch</value>
+  </data>
+  <data name="malzeme_sensoru" xml:space="preserve">
+    <value>Malzeme Sensoru</value>
+  </data>
+  <data name="vida_algılama_sensoru_kafa_1" xml:space="preserve">
+    <value>Vida Algılama Sensoru Kafa 1</value>
+  </data>
+  <data name="vida_algılama_sensoru_kafa_2" xml:space="preserve">
+    <value>Vida Algılama Sensoru Kafa 2</value>
+  </data>
+  <data name="profil_sıkmalar_yukarıda" xml:space="preserve">
+    <value>Profil Sıkmalar Yukarıda</value>
+  </data>
+  <data name="profil_sıkmalar_asagida" xml:space="preserve">
+    <value>Profil Sıkmalar Asagida</value>
+  </data>
+  <data name="profil_sıkmalar_geride" xml:space="preserve">
+    <value>Profil Sıkmalar Geride</value>
+  </data>
+  <data name="kafa_1_vidalama_unitesi_piston_yukarıda" xml:space="preserve">
+    <value>Kafa 1 Vidalama Unitesi Piston Yukarıda</value>
+  </data>
+  <data name="kafa_2_vidalama_unitesi_piston_yukarıda" xml:space="preserve">
+    <value>Kafa 2 Vidalama Unitesi Piston Yukarıda</value>
+  </data>
+  <data name="kafa_1_motor_piston_asagida" xml:space="preserve">
+    <value>Kafa 1 Motor Piston Asagida</value>
+  </data>
+  <data name="kafa_2_motor_piston_asagida" xml:space="preserve">
+    <value>Kafa 2 Motor Piston Asagida</value>
+  </data>
+  <data name="konveyor_ileri_butonu" xml:space="preserve">
+    <value>Konveyor Ileri Butonu</value>
+  </data>
+  <data name="konveyor_geri_butonu" xml:space="preserve">
+    <value>Konveyor Geri Butonu</value>
+  </data>
+  <data name="konveyor_termik" xml:space="preserve">
+    <value>Konveyor Termik</value>
+  </data>
+  <data name="matkap_termik_kafa_1" xml:space="preserve">
+    <value>Matkap Termik Kafa 1</value>
+  </data>
+  <data name="matkap_termik_kafa_2" xml:space="preserve">
+    <value>Matkap Termik Kafa 2</value>
+  </data>
+  <data name="sıkmalar_yukarı" xml:space="preserve">
+    <value>Sıkmalar Yukarı</value>
+  </data>
+  <data name="sıkma_1" xml:space="preserve">
+    <value>Sıkma 1</value>
+  </data>
+  <data name="sıkma_2" xml:space="preserve">
+    <value>Sıkma 2</value>
+  </data>
+  <data name="sıkma_3" xml:space="preserve">
+    <value>Sıkma 3</value>
+  </data>
+  <data name="sıkma_4" xml:space="preserve">
+    <value>Sıkma 4</value>
+  </data>
+  <data name="sıkma_5" xml:space="preserve">
+    <value>Sıkma 5</value>
+  </data>
+  <data name="sıkma_6" xml:space="preserve">
+    <value>Sıkma 6</value>
+  </data>
+  <data name="sıkma_7" xml:space="preserve">
+    <value>Sıkma 7</value>
+  </data>
+  <data name="sıkma_8" xml:space="preserve">
+    <value>Sıkma 8</value>
+  </data>
+  <data name="sıkma_9" xml:space="preserve">
+    <value>Sıkma 9</value>
+  </data>
+  <data name="sıkma_10" xml:space="preserve">
+    <value>Sıkma 10</value>
+  </data>
+  <data name="kafa_1_vidalama_unitesi_asagi" xml:space="preserve">
+    <value>Kafa 1 Vidalama Unitesi Asagi</value>
+  </data>
+  <data name="kafa_1_vidalama_motoru_asagi" xml:space="preserve">
+    <value>Kafa 1 Vidalama Motoru Asagi</value>
+  </data>
+  <data name="kafa_1_vida_alma" xml:space="preserve">
+    <value>Kafa 1 Vida Alma</value>
+  </data>
+  <data name="kafa_1_vida_kutusu" xml:space="preserve">
+    <value>Kafa 1 Vida Kutusu</value>
+  </data>
+  <data name="kafa_1_vida_ufleme" xml:space="preserve">
+    <value>Kafa 1 Vida Ufleme</value>
+  </data>
+  <data name="kafa_1_matkap_ufleme" xml:space="preserve">
+    <value>Kafa 1 Matkap Ufleme</value>
+  </data>
+  <data name="kafa_2_vidalama_unitesi_asagi" xml:space="preserve">
+    <value>Kafa 2 Vidalama Unitesi Asagi</value>
+  </data>
+  <data name="kafa_2_vidalama_motoru_asagi" xml:space="preserve">
+    <value>Kafa 2 Vidalama Motoru Asagi</value>
+  </data>
+  <data name="kafa_2_vida_alma" xml:space="preserve">
+    <value>Kafa 2 Vida Alma</value>
+  </data>
+  <data name="kafa_2_vida_kutusu" xml:space="preserve">
+    <value>Kafa 2 Vida Kutusu</value>
+  </data>
+  <data name="kafa_2_vida_ufleme" xml:space="preserve">
+    <value>Kafa 2 Vida Ufleme</value>
+  </data>
+  <data name="kafa_2_matkap_ufleme" xml:space="preserve">
+    <value>Kafa 2 Matkap Ufleme</value>
+  </data>
+  <data name="konveyor_ileri" xml:space="preserve">
+    <value>Konveyor Ileri</value>
+  </data>
+  <data name="konveyor_geri" xml:space="preserve">
+    <value>Konveyor Geri</value>
+  </data>
+  <data name="kafa_1_delme_motoru" xml:space="preserve">
+    <value>Kafa 1 Delme Motoru</value>
+  </data>
+  <data name="kafa_2_delme_motoru" xml:space="preserve">
+    <value>Kafa 2 Delme Motoru</value>
+  </data>
+  <data name="vyedek" xml:space="preserve">
+    <value>V-YEDEK</value>
+  </data>
+  <data name="vyedek_1" xml:space="preserve">
+    <value>V-YEDEK</value>
+  </data>
+  <data name="vyedek_2" xml:space="preserve">
+    <value>V-YEDEK</value>
+  </data>
+  <data name="vyedek_3" xml:space="preserve">
+    <value>V-YEDEK</value>
+  </data>
+  <data name="x_hiz" xml:space="preserve">
+    <value>X_HIZ</value>
+  </data>
+  <data name="x_acc_1" xml:space="preserve">
+    <value>X_ACC</value>
+  </data>
+  <data name="x_jerk_1" xml:space="preserve">
+    <value>X_JERK</value>
+  </data>
+  <data name="y_hiz_1" xml:space="preserve">
+    <value>Y_HIZ</value>
+  </data>
+  <data name="y_acc_1" xml:space="preserve">
+    <value>Y_ACC</value>
+  </data>
+  <data name="y_jerk_1" xml:space="preserve">
+    <value>Y_JERK</value>
+  </data>
+  <data name="z_hiz" xml:space="preserve">
+    <value>Z_HIZ</value>
+  </data>
+  <data name="z_acc" xml:space="preserve">
+    <value>Z_ACC</value>
+  </data>
+  <data name="z_jerk" xml:space="preserve">
+    <value>Z_JERK</value>
+  </data>
+  <data name="tool_emniyet_mesafesi_1" xml:space="preserve">
+    <value>TOOL EMNİYET MESAFESİ</value>
+  </data>
+  <data name="tool_emniyet_mesafesi_delme" xml:space="preserve">
+    <value>TOOL EMNİYET MESAFESİ DELME</value>
+  </data>
+  <data name="kafa_1_min_x_pos_1" xml:space="preserve">
+    <value>KAFA 1 MIN X POS</value>
+  </data>
+  <data name="kafa_2_max_x_pos" xml:space="preserve">
+    <value>KAFA 2 MAX X POS</value>
+  </data>
+  <data name="tool_offset_kafa_1_x" xml:space="preserve">
+    <value>TOOL OFFSET KAFA 1 X</value>
+  </data>
+  <data name="tool_offset_kafa_1_y" xml:space="preserve">
+    <value>TOOL OFFSET KAFA 1 Y</value>
+  </data>
+  <data name="tool_offset_kafa_2_x" xml:space="preserve">
+    <value>TOOL OFFSET KAFA 2 X</value>
+  </data>
+  <data name="tool_offset_kafa_2_y" xml:space="preserve">
+    <value>TOOL OFFSET KAFA 2 Y</value>
+  </data>
+  <data name="tool_offset_kafa_1_matkap_x" xml:space="preserve">
+    <value>TOOL OFFSET KAFA 1 MATKAP X</value>
+  </data>
+  <data name="tool_offset_kafa_1_matkap_y" xml:space="preserve">
+    <value>TOOL OFFSET KAFA 1 MATKAP Y</value>
+  </data>
+  <data name="tool_offset_kafa_2_matkap_x" xml:space="preserve">
+    <value>TOOL OFFSET KAFA 2 MATKAP X</value>
+  </data>
+  <data name="tool_offset_kafa_2_matkap_y" xml:space="preserve">
+    <value>TOOL OFFSET KAFA 2 MATKAP Y</value>
+  </data>
+  <data name="kafa_1_aktif_1" xml:space="preserve">
+    <value>KAFA 1 AKTIF</value>
+  </data>
+  <data name="kafa_2_aktif_1" xml:space="preserve">
+    <value>KAFA 2 AKTIF</value>
+  </data>
+  <data name="sikma_offset_1" xml:space="preserve">
+    <value>SIKMA OFFSET</value>
+  </data>
+  <data name="sikma_pozisyon_1" xml:space="preserve">
+    <value>SIKMA POZİSYON 1</value>
+  </data>
+  <data name="sikma_pozisyon_2" xml:space="preserve">
+    <value>SIKMA POZİSYON 2</value>
+  </data>
+  <data name="sikma_pozisyon_3" xml:space="preserve">
+    <value>SIKMA POZİSYON 3</value>
+  </data>
+  <data name="sikma_pozisyon_4" xml:space="preserve">
+    <value>SIKMA POZİSYON 4</value>
+  </data>
+  <data name="sikma_pozisyon_5" xml:space="preserve">
+    <value>SIKMA POZİSYON 5</value>
+  </data>
+  <data name="sikma_pozisyon_6" xml:space="preserve">
+    <value>SIKMA POZİSYON 6</value>
+  </data>
+  <data name="sikma_pozisyon_7" xml:space="preserve">
+    <value>SIKMA POZİSYON 7</value>
+  </data>
+  <data name="sikma_pozisyon_8" xml:space="preserve">
+    <value>SIKMA POZİSYON 8</value>
+  </data>
+  <data name="sikma_pozisyon_9" xml:space="preserve">
+    <value>SIKMA POZİSYON 9</value>
+  </data>
+  <data name="sikma_pozisyon_10" xml:space="preserve">
+    <value>SIKMA POZİSYON 10</value>
+  </data>
+  <data name="profil_sensor_gecikme_1" xml:space="preserve">
+    <value>PROFİL SENSOR GECIKME</value>
+  </data>
+  <data name="profil_sikma_zamani_1" xml:space="preserve">
+    <value>PROFİL SIKMA ZAMANI</value>
+  </data>
+  <data name="vida_alma_zamani_1" xml:space="preserve">
+    <value>VİDA ALMA ZAMANI</value>
+  </data>
+  <data name="vida_basma_gecikme_zamani" xml:space="preserve">
+    <value>VİDA BASMA GECİKME ZAMANI</value>
+  </data>
+  <data name="vida_ufleme_zamani" xml:space="preserve">
+    <value>VİDA UFLEME ZAMANI</value>
+  </data>
+  <data name="şarjor_acilma_zamani" xml:space="preserve">
+    <value>ŞARJOR ACİLMA ZAMANI</value>
+  </data>
+  <data name="şarjor_kapanma_zamani" xml:space="preserve">
+    <value>ŞARJOR KAPANMA ZAMANI</value>
+  </data>
+  <data name="vida_alma_tot_hata_zamani" xml:space="preserve">
+    <value>VİDA ALMA TOT. HATA ZAMANI</value>
+  </data>
+  <data name="vidalama_tot_hata_zamani" xml:space="preserve">
+    <value>VİDALAMA TOT. HATA ZAMANI</value>
+  </data>
+  <data name="sarjor_besleme_set_1" xml:space="preserve">
+    <value>SARJOR BESLEME SET</value>
+  </data>
+  <data name="vida_besleme_max_deneme_sayisi" xml:space="preserve">
+    <value>VİDA BESLEME MAX DENEME SAYISI</value>
+  </data>
+  <data name="başlangiç_mesafe_beyaz" xml:space="preserve">
+    <value>BAŞLANGIÇ MESAFE BEYAZ</value>
+  </data>
+  <data name="başlangiç_mesafe_renkli" xml:space="preserve">
+    <value>BAŞLANGIÇ MESAFE RENKLİ</value>
+  </data>
+  <data name="orta_mesafe_beyaz" xml:space="preserve">
+    <value>ORTA MESAFE BEYAZ</value>
+  </data>
+  <data name="orta_mesafe_renkli" xml:space="preserve">
+    <value>ORTA MESAFE RENKLİ</value>
+  </data>
+  <data name="kafa_1_x" xml:space="preserve">
+    <value>KAFA 1 - X</value>
+  </data>
+  <data name="kafa_1_y" xml:space="preserve">
+    <value>KAFA 1 - Y</value>
+  </data>
+  <data name="kafa_2_x" xml:space="preserve">
+    <value>KAFA 2 - X</value>
+  </data>
+  <data name="kafa_2_y" xml:space="preserve">
+    <value>KAFA 2 - Y</value>
+  </data>
+  <data name="kafa_1_z" xml:space="preserve">
+    <value>KAFA 1 - Z</value>
+  </data>
+  <data name="kafa_2_z" xml:space="preserve">
+    <value>KAFA 2 - Z</value>
+  </data>
+  <data name="aktuel_pos" xml:space="preserve">
+    <value>AKTUEL POS</value>
+  </data>
+  <data name="hedef_pos" xml:space="preserve">
+    <value>HEDEF POS</value>
+  </data>
+  <data name="matkap_başlangiç_mesafe_beyaz" xml:space="preserve">
+    <value>MATKAP BAŞLANGIÇ MESAFE BEYAZ</value>
+  </data>
+  <data name="matkap_başlangiç_mesafe_renkli" xml:space="preserve">
+    <value>MATKAP BAŞLANGIÇ MESAFE RENKLİ</value>
+  </data>
+  <data name="matkap_orta_mesafe_beyaz" xml:space="preserve">
+    <value>MATKAP ORTA MESAFE BEYAZ</value>
+  </data>
+  <data name="matkap_orta_mesafe_renkli" xml:space="preserve">
+    <value>MATKAP ORTA MESAFE RENKLİ</value>
+  </data>
+  <data name="z_pozisyon_alt_kafa_1" xml:space="preserve">
+    <value>Z POZİSYON ALT KAFA 1</value>
+  </data>
+  <data name="z_pozisyon_alt_kafa_2" xml:space="preserve">
+    <value>Z POZİSYON ALT KAFA 2</value>
+  </data>
+  <data name="valarmyedek" xml:space="preserve">
+    <value>V-ALARMYEDEK</value>
+  </data>
+  <data name="valarmyedek_1" xml:space="preserve">
+    <value>V-ALARMYEDEK</value>
+  </data>
+  <data name="valarmyedek_2" xml:space="preserve">
+    <value>V-ALARMYEDEK</value>
+  </data>
+  <data name="valarmyedek_3" xml:space="preserve">
+    <value>V-ALARMYEDEK</value>
+  </data>
+  <data name="valarmyedek_4" xml:space="preserve">
+    <value>V-ALARMYEDEK</value>
+  </data>
+  <data name="valarmyedek_5" xml:space="preserve">
+    <value>V-ALARMYEDEK</value>
+  </data>
+  <data name="valarmyedek_6" xml:space="preserve">
+    <value>V-ALARMYEDEK</value>
+  </data>
+  <data name="valarmyedek_7" xml:space="preserve">
+    <value>V-ALARMYEDEK</value>
+  </data>
+  <data name="yedek" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_3" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_4" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_5" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_6" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_7" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_8" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_9" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_10" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_11" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_12" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_13" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="giriş_masasi_butonlar" xml:space="preserve">
+    <value>GİRİŞ MASASI BUTONLAR</value>
+  </data>
+  <data name="kabin_butonlar" xml:space="preserve">
+    <value>KABİN BUTONLAR</value>
+  </data>
+  <data name="motorlar_butonlar" xml:space="preserve">
+    <value>MOTORLAR BUTONLAR</value>
+  </data>
+  <data name="giriş_çikiş" xml:space="preserve">
+    <value>GİRİŞ - ÇIKIŞ</value>
+  </data>
+  <data name="giriş_üst_baski_1" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI 1</value>
+  </data>
+  <data name="giriş_üst_baski_2" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI 2</value>
+  </data>
+  <data name="giriş_üst_baski_3" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI 3</value>
+  </data>
+  <data name="giriş_üst_baski_ileri_1" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI İLERİ 1</value>
+  </data>
+  <data name="giriş_üst_baski_ileri_2" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI İLERİ 2</value>
+  </data>
+  <data name="giriş_üst_baski_ileri_3" xml:space="preserve">
+    <value>GİRİŞ ÜST BASKI İLERİ 3</value>
+  </data>
+  <data name="giriş_yan_baski_1" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI 1</value>
+  </data>
+  <data name="giriş_yan_baski_2" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI 2</value>
+  </data>
+  <data name="giriş_yan_baski_3" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI 3</value>
+  </data>
+  <data name="giriş_yan_baski_4" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI 4</value>
+  </data>
+  <data name="giriş_yan_baski_5" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI 5</value>
+  </data>
+  <data name="giriş_yan_baski_6" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI 6</value>
+  </data>
+  <data name="giriş_yan_baski_7" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI 7</value>
+  </data>
+  <data name="giriş_yan_baski_8" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI 8</value>
+  </data>
+  <data name="giriş_yan_baski_yukari" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI YUKARI</value>
+  </data>
+  <data name="giriş_yan_baski_boşaltma_1" xml:space="preserve">
+    <value>GİRİŞ YAN BASKI BOŞALTMA</value>
+  </data>
+  <data name="giriş_profil_tutma" xml:space="preserve">
+    <value>GİRİŞ PROFİL TUTMA</value>
+  </data>
+  <data name="giriş_tork_dayama" xml:space="preserve">
+    <value>GİRİŞ TORK DAYAMA</value>
+  </data>
+  <data name="giriş_yan_sikmalar" xml:space="preserve">
+    <value>GİRİŞ YAN SIKMALAR</value>
+  </data>
+  <data name="çikiş_profil_kaldirma_1" xml:space="preserve">
+    <value>ÇIKIŞ PROFİL KALDIRMA</value>
+  </data>
+  <data name="çikiş_profil_tutma_1" xml:space="preserve">
+    <value>ÇIKIŞ PROFİL TUTMA</value>
+  </data>
+  <data name="yukarida" xml:space="preserve">
+    <value>YUKARIDA</value>
+  </data>
+  <data name="ileride" xml:space="preserve">
+    <value>İLERİDE</value>
+  </data>
+  <data name="aktif" xml:space="preserve">
+    <value>AKTİF</value>
+  </data>
+  <data name="aşağida" xml:space="preserve">
+    <value>AŞAĞIDA</value>
+  </data>
+  <data name="geride" xml:space="preserve">
+    <value>GERİDE</value>
+  </data>
+  <data name="aşağida_1" xml:space="preserve">
+    <value>AŞAĞIDA</value>
+  </data>
+  <data name="pasif" xml:space="preserve">
+    <value>PASİF</value>
+  </data>
+  <data name="freze_öncesi_conta_baski_1" xml:space="preserve">
+    <value>FREZE ÖNCESİ CONTA BASKI</value>
+  </data>
+  <data name="freze_öncesi_üst_yan_baski_1" xml:space="preserve">
+    <value>FREZE ÖNCESİ ÜST YAN BASKI</value>
+  </data>
+  <data name="freze_sonrasi_üst_yan_baski_1" xml:space="preserve">
+    <value>FREZE SONRASI ÜST YAN BASKI</value>
+  </data>
+  <data name="freze_sonrasi_conta_baski" xml:space="preserve">
+    <value>FREZE SONRASI CONTA BASKI</value>
+  </data>
+  <data name="testere_öncesi_üst_baski" xml:space="preserve">
+    <value>TESTERE ÖNCESİ ÜST BASKI</value>
+  </data>
+  <data name="testere_öncesi_conta_baski_1" xml:space="preserve">
+    <value>TESTERE ÖNCESİ CONTA BASKI</value>
+  </data>
+  <data name="testere_sonrasi_üst_yan_baski" xml:space="preserve">
+    <value>TESTERE SONRASI ÜST YAN BASKI</value>
+  </data>
+  <data name="testere_sonrasi_üst_baski_1" xml:space="preserve">
+    <value>TESTERE SONRASI ÜST BASKI</value>
+  </data>
+  <data name="testere_sonrasi_alt_yan_baski" xml:space="preserve">
+    <value>TESTERE SONRASI ALT YAN BASKI</value>
+  </data>
+  <data name="testere_sonrasi_conta_baski" xml:space="preserve">
+    <value>TESTERE SONRASI CONTA BASKI</value>
+  </data>
+  <data name="freze_piston_1" xml:space="preserve">
+    <value>FREZE PİSTON 1</value>
+  </data>
+  <data name="freze_piston_2" xml:space="preserve">
+    <value>FREZE PİSTON 2</value>
+  </data>
+  <data name="freze_piston_3" xml:space="preserve">
+    <value>FREZE PİSTON 3</value>
+  </data>
+  <data name="freze_piston_4" xml:space="preserve">
+    <value>FREZE PİSTON 4</value>
+  </data>
+  <data name="freze_piston_5" xml:space="preserve">
+    <value>FREZE PİSTON 5</value>
+  </data>
+  <data name="freze_piston_6" xml:space="preserve">
+    <value>FREZE PİSTON 6</value>
+  </data>
+  <data name="freze_piston_7" xml:space="preserve">
+    <value>FREZE PİSTON 7</value>
+  </data>
+  <data name="freze_piston_8" xml:space="preserve">
+    <value>FREZE PİSTON 8</value>
+  </data>
+  <data name="freze_piston_9" xml:space="preserve">
+    <value>FREZE PİSTON 9</value>
+  </data>
+  <data name="üst_testere_45" xml:space="preserve">
+    <value>ÜST TESTERE 45</value>
+  </data>
+  <data name="üst_testere_90" xml:space="preserve">
+    <value>ÜST TESTERE 90</value>
+  </data>
+  <data name="alt_testere_135" xml:space="preserve">
+    <value>ALT TESTERE 135</value>
+  </data>
+  <data name="testere_oncesi_yan_sikma" xml:space="preserve">
+    <value>TESTERE ONCESİ YAN SIKMA</value>
+  </data>
+  <data name="giriş_konveyor" xml:space="preserve">
+    <value>GİRİŞ KONVEYOR</value>
+  </data>
+  <data name="freze_1_motor" xml:space="preserve">
+    <value>FREZE 1 MOTOR</value>
+  </data>
+  <data name="freze_2_motor" xml:space="preserve">
+    <value>FREZE 2 MOTOR</value>
+  </data>
+  <data name="freze_3_motor" xml:space="preserve">
+    <value>FREZE 3 MOTOR</value>
+  </data>
+  <data name="freze_4_motor" xml:space="preserve">
+    <value>FREZE 4 MOTOR</value>
+  </data>
+  <data name="freze_5_motor" xml:space="preserve">
+    <value>FREZE 5 MOTOR</value>
+  </data>
+  <data name="freze_6_motor" xml:space="preserve">
+    <value>FREZE 6 MOTOR</value>
+  </data>
+  <data name="freze_7_motor" xml:space="preserve">
+    <value>FREZE 7 MOTOR</value>
+  </data>
+  <data name="freze_8_motor" xml:space="preserve">
+    <value>FREZE 8 MOTOR</value>
+  </data>
+  <data name="freze_9_motor" xml:space="preserve">
+    <value>FREZE 9 MOTOR</value>
+  </data>
+  <data name="üst_testere_45_motor" xml:space="preserve">
+    <value>ÜST TESTERE 45 MOTOR</value>
+  </data>
+  <data name="üst_testere_90_motor" xml:space="preserve">
+    <value>ÜST TESTERE 90 MOTOR</value>
+  </data>
+  <data name="alt_testere_135_motor" xml:space="preserve">
+    <value>ALT TESTERE 135 MOTOR</value>
+  </data>
+  <data name="talas_konveyor_motor" xml:space="preserve">
+    <value>TALAS KONVEYOR MOTOR</value>
+  </data>
+  <data name="yağlama_motor" xml:space="preserve">
+    <value>YAĞLAMA MOTOR</value>
+  </data>
+  <data name="çikiş_konveyor_motor" xml:space="preserve">
+    <value>ÇIKIŞ KONVEYOR MOTOR</value>
+  </data>
+  <data name="kapi_switch" xml:space="preserve">
+    <value>KAPI SWİTCH</value>
+  </data>
+  <data name="çikiş_tur_sensoru" xml:space="preserve">
+    <value>ÇIKIŞ TUR SENSORU</value>
+  </data>
+  <data name="çikiş_profil_sensoru" xml:space="preserve">
+    <value>ÇIKIŞ PROFİL SENSORU</value>
+  </data>
+  <data name="çikiş_güvenlik" xml:space="preserve">
+    <value>ÇIKIŞ GÜVENLİK</value>
+  </data>
+  <data name="giriş_güvenlik" xml:space="preserve">
+    <value>GİRİŞ GÜVENLİK</value>
+  </data>
+  <data name="giriş_profil_sensoru" xml:space="preserve">
+    <value>GİRİŞ PROFİL SENSORU</value>
+  </data>
+  <data name="hava_basinç_sensoru" xml:space="preserve">
+    <value>HAVA BASINÇ SENSORU</value>
+  </data>
+  <data name="acil_stop_1" xml:space="preserve">
+    <value>ACİL STOP</value>
+  </data>
+  <data name="giriş_profil_lazer" xml:space="preserve">
+    <value>GİRİŞ PROFİL LAZER</value>
+  </data>
+  <data name="kirmizi_lamba" xml:space="preserve">
+    <value>KIRMIZI LAMBA</value>
+  </data>
+  <data name="yeşil_lamba" xml:space="preserve">
+    <value>YEŞİL LAMBA</value>
+  </data>
+  <data name="stop_buton_lamba" xml:space="preserve">
+    <value>STOP BUTON LAMBA</value>
+  </data>
+  <data name="start_buton_lamba" xml:space="preserve">
+    <value>START BUTON LAMBA</value>
+  </data>
+  <data name="ust_testere_45_termik" xml:space="preserve">
+    <value>UST TESTERE 45 TERMİK</value>
+  </data>
+  <data name="üst_testere_90_termik" xml:space="preserve">
+    <value>ÜST TESTERE 90 TERMİK</value>
+  </data>
+  <data name="alt_testere_135_termik" xml:space="preserve">
+    <value>ALT TESTERE 135 TERMİK</value>
+  </data>
+  <data name="start_butonu_1" xml:space="preserve">
+    <value>START BUTONU</value>
+  </data>
+  <data name="stop_butonu_1" xml:space="preserve">
+    <value>STOP BUTONU</value>
+  </data>
+  <data name="çikiş_konveyoru_termik" xml:space="preserve">
+    <value>ÇIKIŞ KONVEYORU TERMİK</value>
+  </data>
+  <data name="talaş_konveyoru_termik" xml:space="preserve">
+    <value>TALAŞ KONVEYORU TERMİK</value>
+  </data>
+  <data name="giriş_konveyoru_termik" xml:space="preserve">
+    <value>GİRİŞ KONVEYORU TERMİK</value>
+  </data>
+  <data name="giriş_konveyor_start_butonu" xml:space="preserve">
+    <value>GİRİŞ KONVEYOR START BUTONU</value>
+  </data>
+  <data name="kafes_güvenlik_switch" xml:space="preserve">
+    <value>KAFES GÜVENLİK SWİTCH</value>
+  </data>
+  <data name="giriş_acil_stop" xml:space="preserve">
+    <value>GİRİŞ ACİL STOP</value>
+  </data>
+  <data name="joistik_x_ileri" xml:space="preserve">
+    <value>JOISTIK X ILERİ</value>
+  </data>
+  <data name="joistik_x_geri" xml:space="preserve">
+    <value>JOISTIK X GERI</value>
+  </data>
+  <data name="joistik_y_ileri" xml:space="preserve">
+    <value>JOISTIK Y İLERİ</value>
+  </data>
+  <data name="joistik_y_geri" xml:space="preserve">
+    <value>JOISTIK Y GERİ</value>
+  </data>
+  <data name="kabin_hava_üfleme" xml:space="preserve">
+    <value>KABİN HAVA ÜFLEME</value>
+  </data>
+  <data name="aktif_1" xml:space="preserve">
+    <value>AKTİF</value>
+  </data>
+  <data name="pasif_1" xml:space="preserve">
+    <value>PASİF</value>
+  </data>
+  <data name="yedek_14" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_15" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_16" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_17" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_18" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_19" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_20" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_21" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_22" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_23" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_24" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_25" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_26" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_27" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_28" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_29" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_30" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_31" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_32" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_33" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_34" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_35" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_36" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_37" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_38" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_39" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_40" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_41" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_42" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_43" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_44" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_45" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_46" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_47" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_48" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_49" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_50" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_51" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_52" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_53" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_54" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_55" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_56" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_57" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_58" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_59" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_60" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_61" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_62" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_63" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_64" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_65" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_66" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_67" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_68" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_69" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_70" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_71" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_72" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_73" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_74" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_75" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_76" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_77" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_78" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_79" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_80" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_81" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_82" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_83" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_84" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_85" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_86" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_87" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_88" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_89" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_90" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_91" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_92" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_93" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_94" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_95" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_96" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_97" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_98" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_99" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_100" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_101" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_102" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_103" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_104" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_105" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_106" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_107" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_108" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_109" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_110" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_111" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_112" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_113" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_114" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_115" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_116" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_117" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_118" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_119" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_120" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_121" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_122" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_123" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_124" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_125" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_126" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_127" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_128" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_129" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_130" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_131" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_132" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_133" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_134" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_135" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_136" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_137" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_138" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_139" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_140" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_141" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_142" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_143" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_144" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_145" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_146" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_147" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_148" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_149" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_150" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_151" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_152" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_153" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_154" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_155" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_156" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_157" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_158" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_159" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_160" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_161" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_162" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_163" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_164" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_165" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_166" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_167" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_168" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_169" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_170" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_171" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_172" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_173" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_174" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_175" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_176" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_177" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_178" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_179" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_180" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_181" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_182" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_183" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_184" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_185" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_186" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_187" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_188" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_189" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_190" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_191" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_192" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_193" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_194" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_195" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_196" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_197" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_198" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_199" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_200" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_201" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_202" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_203" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_204" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_205" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_206" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_207" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_208" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_209" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_210" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_211" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_212" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_213" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_214" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_215" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_216" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_217" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_218" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_219" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_220" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_221" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_222" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_223" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_224" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_225" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_226" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_227" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_228" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_229" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_230" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_231" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_232" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_233" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_234" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_235" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_236" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_237" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_238" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_239" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_240" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_241" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_242" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_243" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_244" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_245" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_246" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_247" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_248" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_249" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_250" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_251" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_252" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_253" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_254" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_255" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_256" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_257" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_258" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_259" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_260" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_261" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_262" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_263" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_264" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_265" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_266" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_267" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_268" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_269" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_270" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_271" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_272" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_273" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_274" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_275" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_276" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_277" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_278" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_279" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_280" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_281" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_282" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_283" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_284" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_285" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_286" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_287" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_288" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_289" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_290" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_291" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_292" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_293" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_294" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_295" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_296" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_297" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_298" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_299" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_300" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_301" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_302" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_303" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_304" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_305" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_306" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_307" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_308" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_309" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_310" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_311" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_312" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_313" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_314" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_315" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_316" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_317" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_318" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_319" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_320" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_321" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_322" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_323" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_324" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_325" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_326" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_327" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_328" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_329" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_330" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_331" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_332" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_333" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_334" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_335" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_336" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_337" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_338" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_339" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_340" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_341" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_342" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_343" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_344" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_345" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_346" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_347" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_348" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_349" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_350" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_351" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_352" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_353" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_354" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_355" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_356" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_357" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_358" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_359" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_360" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_361" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_362" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_363" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_364" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_365" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_366" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_367" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_368" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_369" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_370" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_371" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_372" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_373" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_374" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_375" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_376" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_377" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_378" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_379" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_380" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_381" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_382" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_383" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_384" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_385" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_386" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_387" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_388" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_389" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_390" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_391" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_392" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_393" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_394" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_395" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_396" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_397" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_398" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_399" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_400" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_401" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_402" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_403" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_404" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_405" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_406" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_407" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_408" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_409" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_410" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_411" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_412" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_413" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_414" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_415" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_416" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_417" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_418" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_419" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_420" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_421" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_422" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_423" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_424" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_425" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_426" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_427" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_428" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_429" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_430" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_431" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_432" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_433" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_434" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_435" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_436" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_437" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_438" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_439" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_440" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_441" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_442" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_443" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_444" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_445" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_446" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_447" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_448" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_449" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_450" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_451" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_452" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_453" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_454" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_455" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_456" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_457" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_458" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_459" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_460" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_461" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_462" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_463" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_464" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_465" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_466" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_467" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_468" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_469" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_470" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_471" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_472" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_473" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_474" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_475" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_476" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_477" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_478" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_479" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_480" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_481" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_482" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_483" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_484" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_485" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_486" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_487" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_488" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_489" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_490" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_491" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_492" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_493" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_494" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_495" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_496" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_497" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_498" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_499" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_500" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_501" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_502" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_503" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_504" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_505" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_506" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_507" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+  <data name="yedek_508" xml:space="preserve">
+    <value>YEDEK</value>
+  </data>
+</root>

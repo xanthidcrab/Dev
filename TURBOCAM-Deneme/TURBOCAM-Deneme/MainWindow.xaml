@@ -1,0 +1,46 @@
+﻿<Window x:Class="TURBOCAM_Deneme.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TURBOCAM_Deneme"
+        xmlns:ht="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ht:HelixViewport3D Name="MainViewport"
+                            Background="White">
+            <!-- Kamera tanımı -->
+            <ht:HelixViewport3D.Camera>
+                <PerspectiveCamera Position="200,200,200"
+                                   LookDirection="-200,-200,-200"
+                                   UpDirection="0,0,1"
+                                   FieldOfView="45" />
+            </ht:HelixViewport3D.Camera>
+
+            <!-- Eksen gösterimi -->
+            <ht:CoordinateSystemVisual3D x:Name="CoordSystem"
+                                         ArrowLengths="20" />
+
+            <!-- Izgara -->
+           
+
+        </ht:HelixViewport3D>
+
+        <!-- Dosya yükleme butonu -->
+        <StackPanel   HorizontalAlignment="Right"
+                      VerticalAlignment="Top">
+            <Button Content="Load DXF"
+                    Width="100"
+                    Height="30"
+                    Margin="10"
+                    Click="LoadDxf_Click" />
+            <Button Content="Make It 3D"
+                    Width="100"
+                    Height="30"
+                    Margin="10"
+                    Click="MakeIt3D" />
+        </StackPanel>
+        
+    </Grid>
+</Window>

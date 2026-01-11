@@ -1,0 +1,13 @@
+﻿<Application x:Class="TreeViewDeneme.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TreeViewDeneme"
+             xmlns:vm="clr-namespace:TreeViewDeneme.ViewModel"
+             xmlns:vv="clr-namespace:TreeViewDeneme.View"
+             >
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type vm:MainPageViewModel}">
+            <vv:MainPage />
+        </DataTemplate>
+    </Application.Resources>
+</Application>

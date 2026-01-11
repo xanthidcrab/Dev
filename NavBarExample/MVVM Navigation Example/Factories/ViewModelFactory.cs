@@ -1,11 +1,6 @@
 ﻿using Autofac;
-using MVVM_Base.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MVVM_Base;
+using MVVM_Base.Interfaces;
 namespace MVVM_Navigation_Example.Factories
 {
     public class ViewModelFactory : IViewModelFactory

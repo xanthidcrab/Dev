@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\INavigationService.cs" />
     <Compile Include="Interfaces\IRelayCommandFactory.cs" />
     <Compile Include="Interfaces\IViewModelFactory.cs" />
     <Compile Include="Interfaces\IPlcAdapter.cs" />

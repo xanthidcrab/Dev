@@ -1,0 +1,743 @@
+<?xml version="1.0" standalone="yes"?>
+<_x0034_590>
+  <xs:schema id="_x0034_590" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="_x0034_590" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PROFILESDATATABLE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STOCKCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="PROFILENAME" type="xs:string" minOccurs="0" />
+                <xs:element name="PROFILEBRAND" type="xs:string" minOccurs="0" />
+                <xs:element name="PROFILEBEADCHANNELX" type="xs:double" minOccurs="0" />
+                <xs:element name="PROFILEBEADCHANNELY" type="xs:double" minOccurs="0" />
+                <xs:element name="PROFILSIZEX" type="xs:double" minOccurs="0" />
+                <xs:element name="PROFILSIZEY" type="xs:double" minOccurs="0" />
+                <xs:element name="LIFTPOINTX" type="xs:double" minOccurs="0" />
+                <xs:element name="LIFTPOINTY" type="xs:double" minOccurs="0" />
+                <xs:element name="SUPPORTPOINTX" type="xs:double" minOccurs="0" />
+                <xs:element name="SUPPORTPOINTY" type="xs:double" minOccurs="0" />
+                <xs:element name="GRIPPERCATCHX" type="xs:double" minOccurs="0" />
+                <xs:element name="GRIPPERCATCHY" type="xs:double" minOccurs="0" />
+                <xs:element name="GRIPPERANGLE" type="xs:double" minOccurs="0" />
+                <xs:element name="PROFILETYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="RAWMATERIAL" type="xs:string" minOccurs="0" />
+                <xs:element name="GASKETCLAMP" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTION1" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTION2" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTION3" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTION4" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTION5" type="xs:string" minOccurs="0" />
+                <xs:element name="HEIGHTOFFSET" type="xs:double" minOccurs="0" />
+                <xs:element name="WIDTHOFFSET" type="xs:double" minOccurs="0" />
+                <xs:element name="SAW" type="xs:int" minOccurs="0" />
+                <xs:element name="CUTSPEED" type="xs:int" minOccurs="0" />
+                <xs:element name="BELTREVERSE" type="xs:int" minOccurs="0" />
+                <xs:element name="GRIPPERDESCEND" type="xs:double" minOccurs="0" />
+                <xs:element name="OPTIONPARAM1" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM2" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM3" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM4" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM5" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM6" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM7" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM8" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM9" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONPARAM10" type="xs:string" minOccurs="0" />
+                <xs:element name="VCLAMPPOS_BACK_X" type="xs:double" minOccurs="0" />
+                <xs:element name="VCLAMPPOS_BACK_Y" type="xs:double" minOccurs="0" />
+                <xs:element name="VCLAMPPOS_FRONT_X" type="xs:double" minOccurs="0" />
+                <xs:element name="VCLAMPPOS_FRONT_Y" type="xs:double" minOccurs="0" />
+                <xs:element name="HCLAMPPOS_X" type="xs:double" minOccurs="0" />
+                <xs:element name="HCLAMPPOS_Y" type="xs:double" minOccurs="0" />
+                <xs:element name="VERTICALALMEASUREY" type="xs:double" minOccurs="0" />
+                <xs:element name="HORIZONTALMEASUREX" type="xs:double" minOccurs="0" />
+                <xs:element name="OPERATIONS" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="OPERATIONSDATATABLE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="OPERATIONCODE" type="xs:int" minOccurs="0" />
+                <xs:element name="OPERATIONTYPE" type="xs:int" minOccurs="0" />
+                <xs:element name="ORIGINALOPERATIONTYPE" type="xs:int" minOccurs="0" />
+                <xs:element name="TOOLNM" type="xs:int" minOccurs="0" />
+                <xs:element name="XPOS" type="xs:double" minOccurs="0" />
+                <xs:element name="YPOS" type="xs:double" minOccurs="0" />
+                <xs:element name="ZPOS" type="xs:double" minOccurs="0" />
+                <xs:element name="APPROACHDIST" type="xs:double" minOccurs="0" />
+                <xs:element name="DEPTH" type="xs:double" minOccurs="0" />
+                <xs:element name="A" type="xs:double" minOccurs="0" />
+                <xs:element name="B" type="xs:double" minOccurs="0" />
+                <xs:element name="C" type="xs:double" minOccurs="0" />
+                <xs:element name="D" type="xs:double" minOccurs="0" />
+                <xs:element name="E" type="xs:double" minOccurs="0" />
+                <xs:element name="XOFFSET" type="xs:double" minOccurs="0" />
+                <xs:element name="YOFFSET" type="xs:double" minOccurs="0" />
+                <xs:element name="ZOFFSET" type="xs:double" minOccurs="0" />
+                <xs:element name="IDLESPD" type="xs:double" minOccurs="0" />
+                <xs:element name="PENETRATESPD" type="xs:double" minOccurs="0" />
+                <xs:element name="MILLFEEDSPD" type="xs:double" minOccurs="0" />
+                <xs:element name="CIRCLESPD" type="xs:double" minOccurs="0" />
+                <xs:element name="JUMPSPD" type="xs:double" minOccurs="0" />
+                <xs:element name="RPM" type="xs:double" minOccurs="0" />
+                <xs:element name="HIERARCHY" type="xs:double" minOccurs="0" />
+                <xs:element name="OPERATIONNAME" type="xs:string" minOccurs="0" />
+                <xs:element name="OPGROUP" type="xs:int" minOccurs="0" />
+                <xs:element name="PIECEID" type="xs:int" minOccurs="0" />
+                <xs:element name="ANGLE" type="xs:double" minOccurs="0" />
+                <xs:element name="R1" type="xs:double" minOccurs="0" />
+                <xs:element name="R2" type="xs:double" minOccurs="0" />
+                <xs:element name="R3" type="xs:double" minOccurs="0" />
+                <xs:element name="R4" type="xs:double" minOccurs="0" />
+                <xs:element name="R5" type="xs:double" minOccurs="0" />
+                <xs:element name="R6" type="xs:double" minOccurs="0" />
+                <xs:element name="CW" type="xs:int" minOccurs="0" />
+                <xs:element name="DEPTHTABLE" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIORITY" type="xs:int" minOccurs="0" />
+                <xs:element name="GROUPNM" type="xs:int" minOccurs="0" />
+                <xs:element name="JUMPSTEP" type="xs:int" minOccurs="0" />
+                <xs:element name="DRAWSTROKE" type="xs:double" minOccurs="0" />
+                <xs:element name="OWNERPROFILECODE" type="xs:string" minOccurs="0" />
+                <xs:element name="DEPTHLEVELNUMBER" type="xs:int" minOccurs="0" />
+                <xs:element name="ZERODEPTHLEVELTOOL" type="xs:int" minOccurs="0" />
+                <xs:element name="OPERATIONSDATATABLE_Id" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCALID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PROFILESDATATABLE>
+    <STOCKCODE>4590</STOCKCODE>
+    <PROFILENAME>0</PROFILENAME>
+    <PROFILEBRAND>0</PROFILEBRAND>
+    <PROFILEBEADCHANNELX>0</PROFILEBEADCHANNELX>
+    <PROFILEBEADCHANNELY>0</PROFILEBEADCHANNELY>
+    <PROFILSIZEX>45</PROFILSIZEX>
+    <PROFILSIZEY>90</PROFILSIZEY>
+    <LIFTPOINTX>0</LIFTPOINTX>
+    <LIFTPOINTY>0</LIFTPOINTY>
+    <SUPPORTPOINTX>40</SUPPORTPOINTX>
+    <SUPPORTPOINTY>0</SUPPORTPOINTY>
+    <GRIPPERCATCHX>35.56</GRIPPERCATCHX>
+    <GRIPPERCATCHY>31.04</GRIPPERCATCHY>
+    <GRIPPERANGLE>0</GRIPPERANGLE>
+    <PROFILETYPE>0</PROFILETYPE>
+    <RAWMATERIAL>0</RAWMATERIAL>
+    <GASKETCLAMP>0</GASKETCLAMP>
+    <OPTION1>0</OPTION1>
+    <OPTION2>0</OPTION2>
+    <OPTION3>0</OPTION3>
+    <OPTION4>0</OPTION4>
+    <OPTION5>0</OPTION5>
+    <HEIGHTOFFSET>0</HEIGHTOFFSET>
+    <WIDTHOFFSET>0</WIDTHOFFSET>
+    <SAW>21</SAW>
+    <CUTSPEED>0</CUTSPEED>
+    <BELTREVERSE>0</BELTREVERSE>
+    <GRIPPERDESCEND>0</GRIPPERDESCEND>
+    <OPTIONPARAM1>0</OPTIONPARAM1>
+    <OPTIONPARAM2>0</OPTIONPARAM2>
+    <OPTIONPARAM3>0</OPTIONPARAM3>
+    <OPTIONPARAM4>0</OPTIONPARAM4>
+    <OPTIONPARAM5>0</OPTIONPARAM5>
+    <OPTIONPARAM6>0</OPTIONPARAM6>
+    <OPTIONPARAM7>0</OPTIONPARAM7>
+    <OPTIONPARAM8>0</OPTIONPARAM8>
+    <OPTIONPARAM9>0</OPTIONPARAM9>
+    <OPTIONPARAM10>0</OPTIONPARAM10>
+    <VCLAMPPOS_BACK_X>1.22</VCLAMPPOS_BACK_X>
+    <VCLAMPPOS_BACK_Y>39.42</VCLAMPPOS_BACK_Y>
+    <VCLAMPPOS_FRONT_X>22.74</VCLAMPPOS_FRONT_X>
+    <VCLAMPPOS_FRONT_Y>39.42</VCLAMPPOS_FRONT_Y>
+    <HCLAMPPOS_X>40</HCLAMPPOS_X>
+    <HCLAMPPOS_Y>15</HCLAMPPOS_Y>
+    <VERTICALALMEASUREY>0</VERTICALALMEASUREY>
+    <HORIZONTALMEASUREX>0</HORIZONTALMEASUREX>
+    <OPERATIONS />
+    <ID>0</ID>
+  </PROFILESDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>9</ID>
+    <OPERATIONCODE>9</OPERATIONCODE>
+    <OPERATIONTYPE>3</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>3</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>26.447</XPOS>
+    <YPOS>86.791</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>10</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>0</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>0</ZOFFSET>
+    <IDLESPD>400</IDLESPD>
+    <PENETRATESPD>10</PENETRATESPD>
+    <MILLFEEDSPD>10</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0</HIERARCHY>
+    <OPERATIONNAME>ssss</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>90</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>1</ID>
+    <OPERATIONCODE>1</OPERATIONCODE>
+    <OPERATIONTYPE>4</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>4</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>0.732</XPOS>
+    <YPOS>80.619</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>20</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>0</ZOFFSET>
+    <IDLESPD>400</IDLESPD>
+    <PENETRATESPD>10</PENETRATESPD>
+    <MILLFEEDSPD>10</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0</HIERARCHY>
+    <OPERATIONNAME>55</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>0</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>8</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>8</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>0</XPOS>
+    <YPOS>45</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>34</A>
+    <B>19</B>
+    <C>11</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>0</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>0</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>4</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>4</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>0</XPOS>
+    <YPOS>45</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>17</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>75</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0.01</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>0</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>4</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>4</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>0</XPOS>
+    <YPOS>45</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>10</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>175</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0.02</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>0</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>4</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>4</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>0</XPOS>
+    <YPOS>45</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>10</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>-90</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0.03</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>0</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>8</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>8</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>45</XPOS>
+    <YPOS>45</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>34</A>
+    <B>19</B>
+    <C>11</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>0</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0.04</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>180</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>4</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>4</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>45</XPOS>
+    <YPOS>45</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>10</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>-90</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0.07</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>180</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>4</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>4</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>45</XPOS>
+    <YPOS>45</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>17</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>75</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0.05</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>180</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>4</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>4</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>45</XPOS>
+    <YPOS>45</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>10</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>175</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0.06</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>180</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>2</ID>
+    <OPERATIONCODE>2</OPERATIONCODE>
+    <OPERATIONTYPE>5</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>5</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>22.5</XPOS>
+    <YPOS>90</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>5</DEPTH>
+    <A>285</A>
+    <B>20</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>47</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>5</PENETRATESPD>
+    <MILLFEEDSPD>5</MILLFEEDSPD>
+    <CIRCLESPD>0</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0.08</HIERARCHY>
+    <OPERATIONNAME>IslemGrup</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>90</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+  <OPERATIONSDATATABLE>
+    <ID>3</ID>
+    <OPERATIONCODE>3</OPERATIONCODE>
+    <OPERATIONTYPE>4</OPERATIONTYPE>
+    <ORIGINALOPERATIONTYPE>4</ORIGINALOPERATIONTYPE>
+    <TOOLNM>1</TOOLNM>
+    <XPOS>22.5</XPOS>
+    <YPOS>90</YPOS>
+    <ZPOS>0</ZPOS>
+    <APPROACHDIST>5</APPROACHDIST>
+    <DEPTH>10</DEPTH>
+    <A>25</A>
+    <B>0</B>
+    <C>0</C>
+    <D>0</D>
+    <E>0</E>
+    <XOFFSET>0</XOFFSET>
+    <YOFFSET>0</YOFFSET>
+    <ZOFFSET>0</ZOFFSET>
+    <IDLESPD>100</IDLESPD>
+    <PENETRATESPD>7</PENETRATESPD>
+    <MILLFEEDSPD>7</MILLFEEDSPD>
+    <CIRCLESPD>7</CIRCLESPD>
+    <JUMPSPD>0</JUMPSPD>
+    <RPM>18000</RPM>
+    <HIERARCHY>0</HIERARCHY>
+    <OPERATIONNAME>test</OPERATIONNAME>
+    <OPGROUP>0</OPGROUP>
+    <PIECEID>0</PIECEID>
+    <ANGLE>90</ANGLE>
+    <R1>0</R1>
+    <R2>0</R2>
+    <R3>0</R3>
+    <R4>0</R4>
+    <R5>0</R5>
+    <R6>0</R6>
+    <CW>0</CW>
+    <DEPTHTABLE />
+    <PRIORITY>0</PRIORITY>
+    <GROUPNM>0</GROUPNM>
+    <JUMPSTEP>0</JUMPSTEP>
+    <DRAWSTROKE>0</DRAWSTROKE>
+    <OWNERPROFILECODE>0</OWNERPROFILECODE>
+    <DEPTHLEVELNUMBER>10</DEPTHLEVELNUMBER>
+    <ZERODEPTHLEVELTOOL>0</ZERODEPTHLEVELTOOL>
+    <OPERATIONSDATATABLE_Id>0</OPERATIONSDATATABLE_Id>
+    <LOCALID>0</LOCALID>
+  </OPERATIONSDATATABLE>
+</_x0034_590>

@@ -1,0 +1,79 @@
+﻿<Window x:Class="DxfViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DxfViewer"
+        xmlns:behav="clr-namespace:DxfViewer.Behaviours"
+        xmlns:viewmodel="clr-namespace:DxfViewer.ViewModel"
+        d:DataContext="{d:DesignInstance Type=viewmodel:MainViewModel}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="3*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <Button Content="Load DXF"
+                        Command="{Binding LoadDxfCommand}"
+                        Margin="10"
+                        Grid.Column="0"
+                        Height="30"
+                        VerticalAlignment="Top" />
+                <StackPanel Orientation="Horizontal"
+                            Margin="10"
+                            VerticalAlignment="Top"
+                            Grid.Column="0">
+                    <TextBlock Text="{Binding Posx}" />
+                    <TextBlock Text=" , " />
+                    <TextBlock Text="{Binding Posy}" />
+                </StackPanel>
+
+            </StackPanel>
+            
+            <Border BorderBrush="Black"
+                    Grid.Column="1"
+                 
+                    ClipToBounds="True"
+                    behav:MouseWheelToCommand.Command="{Binding MouseWheelCommand}"
+                    behav:MouseDownToCommand.MouseDownCommand="{Binding MouseDownCommand}"
+                    behav:MouseUpToCommand.MouseUpCommand="{Binding MouseUpCommand}"
+                    behav:MouseMoveToCommand.MouseMoveCommand="{Binding MouseMoveCommand}"
+                    Background="Transparent"
+                    BorderThickness="1"
+                    Margin="10">
+                <Canvas x:Name="DxfCanvas"
+                        VerticalAlignment="Bottom"
+                        HorizontalAlignment="Right"
+                        Background="White">
+                    <Grid
+                        behav:MouseMoveToCommand.MouseMoveCommand="{Binding InneerCanvasMouseMoveCommand}"
+                        Background="Gainsboro"
+                        Panel.ZIndex="99"
+                         
+                        >
+                       
+                        <Path Stroke="Black"
+                              Data="{Binding DxfData}"
+                              StrokeThickness="0.5">
+                            <Path.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="{Binding ZoomLevel}"
+                                                    ScaleY="{Binding ZoomLevel}" />
+                                    <TranslateTransform X="{Binding PanOffsetX}"
+                                                        Y="{Binding PanOffsetY}" />
+                                    
+                                </TransformGroup>
+                            </Path.RenderTransform>
+                        </Path>
+                    </Grid>
+                 
+
+                </Canvas>
+            </Border>
+        </Grid>
+     
+    </Grid>
+</Window>
